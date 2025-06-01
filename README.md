@@ -39,6 +39,7 @@ One of the main capabilities of OpenZFS is self-healing. The file system can det
 ## ZFS cheat-sheet
 - [ZFS Cheat Sheet](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 - [ZFS Cheat Sheet2](https://www.zfshandbook.com/docs/references/cheatsheet/)
+- [ZFS Cheat Sheet3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)
 
 ## Links
 - [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)

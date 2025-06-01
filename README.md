@@ -19,6 +19,7 @@ One of the main capabilities of OpenZFS is self-healing. The file system can det
   - [ZFS tools](#zfs-tools)
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
   - [Links](#links)
+  - [Videos](#videos)
 
 ## Legend
 - Abandoned :skull:
@@ -52,5 +53,5 @@ One of the main capabilities of OpenZFS is self-healing. The file system can det
 
 <!-- ## Books -->
 
-<!-- ## Videos -->
+## Videos
 - [Cockpit+ZFS Manager plugin](https://www.youtube.com/watch?v=1HEO7qXa6jo&t=745s)

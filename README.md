@@ -1,12 +1,14 @@
 # Awesome OpenZFS
-
+![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 > A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
-> [<img src="https://github.com/ankek/awesome-zfs/main/openzfs_logo_icon_248286.svg" align="right" width="100">](https://openzfs.github.io/openzfs-docs/)
-> Your [contributions](https://github.com/ankek/awesome-zfs/main/contributing.md) are welcome!
-
-OpenZFS is an open-source implementation of the ZFS file system and volume manager initially developed by Sun Microsystems for the Solaris operating system, and is now maintained by the OpenZFS Project. Similar to the original ZFS, the implementation supports features like data compression, data deduplication, copy-on-write clones, snapshots, RAID-Z, and virtual devices that can create filesystems that span multiple disks.
+> OpenZFS is an open-source implementation of the ZFS file system and volume manager initially developed by Sun Microsystems for the Solaris operating system, and is now maintained by the OpenZFS Project. Similar to the original ZFS, the implementation supports features like data compression, data deduplication, copy-on-write clones, snapshots, RAID-Z, and virtual devices that can create filesystems that span multiple disks.
 
 One of the main capabilities of OpenZFS is self-healing. The file system can detect and correct errors while in use, without the need for a dedicated file system checker. This feature makes it suitable for mission-critical applications that require high availability. 
+
+
+> [!IMPORTANT]  
+> Your [contributions](https://github.com/ankek/awesome-zfs/blob/main/contributing.md) are welcome!
+
 
 ## Contents
 
@@ -15,7 +17,7 @@ One of the main capabilities of OpenZFS is self-healing. The file system can det
   - [Legend](#legend)
   - [Official Resources](#official-resources)
   - [ZFS tools](#zfs-tools)
-  - [ZFS cheat-sheet](#zfs-cheat-sheet)
+  - [ZFS Cheat Sheets](#zfs-cheat-sheets)
   - [Links](#links)
 
 ## Legend
@@ -24,19 +26,19 @@ One of the main capabilities of OpenZFS is self-healing. The file system can det
 
 ## Official Resources
 - [Official website](https://openzfs.org/)
-- [RAIDZ](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/RAIDZ.html)
-- [dRAID](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html#introduction)
+- [RAIDZ documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/RAIDZ.html)
+- [dRAID documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html#introduction)
 
 ## ZFS tools
 - [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
 - [ZFS raidz calculator1](https://www.raidz-calculator.com/)
 - [ZFS raidz calculator2](https://zfs-calculator.com/)
 - [ZFS backup tools](https://github.com/Rudd-O/zfs-tools)
-- [Simple GUI for ZFS administration - Zyggy](https://github.com/manoeldesouza/zyggy)
-- [Web UI for OpenZFS](https://www.poolsman.com/):moneybag:
-- [ZFS Commander](https://github.com/manoeldesouza/zc):skull:
+- [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
+- :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
+- :skull:[ZFS Commander](https://github.com/manoeldesouza/zc)
 
-## ZFS cheat-sheet
+## ZFS Cheat Sheets
 - [ZFS Cheat Sheet](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 - [ZFS Cheat Sheet2](https://www.zfshandbook.com/docs/references/cheatsheet/)
 - [ZFS Cheat Sheet3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)

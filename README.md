@@ -30,7 +30,12 @@
   - [Tutorials](#tutorials)
     - [Beginner Guides](#beginner-guides)
     - [Snapshots, Backups and Replication](#snapshots-backups-and-replication)
+    - [ZFS performance tuning and benchmarks](#zfs-performance-tuning-and-benchmarks)
   - [ZFS tools](#zfs-tools)
+    - [ZFS Calculators](#zfs-calculators)
+    - [ZFS GUI](#zfs-gui)
+    - [ZFS Monitoring](#zfs-monitoring)
+    - [ZFS Backup tools](#zfs-backup-tools)
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
   - [ZFS Testing](#zfs-testing)
   - [ZFS Encryption](#zfs-encryption)
@@ -67,21 +72,47 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [Secure External Backup with ZFS Native Encryptionp](https://pipo.blog/articles/20210803-secure-zfs-encrypted-extbackup)
 - [Sending and Receiving ZFS Data](https://docs.oracle.com/cd/E18752_01/html/819-5461/gbchx.html)
 - [How to use snapshots, clones and replication in ZFS on Linux](https://www.howtoforge.com/tutorial/how-to-use-snapshots-clones-and-replication-in-zfs-on-linux/)
-- [ setting up a remote ZFS mirror](https://github.com/hughobrien/zfs-remote-mirror)
-- [ZFS backup via zfs send/recv over ssh](https://github.com/adaugherity/zfs-backup)
+- [ZFS Snapshot Tools](https://klarasystems.com/articles/zfs-orchestration-part-1-zfs-snapshots-tools/)
+- [Efficient ZFS Replication with Snapshots](https://klarasystems.com/articles/zfs-orchestration-tools-part-2-replication/)
+### ZFS performance tuning and benchmarks
+- [Managing and Tracking Storage Performance – OpenZFS Storage Bottlenecks](https://klarasystems.com/articles/managing-tracking-storage-performance-openzfs-bottlenecks/)
+- [5 Reasons Why Your ZFS Storage Benchmarks Are Wrong](https://klarasystems.com/articles/5-reasons-why-your-zfs-storage-benchmarks-are-wrong/)
 
 ## ZFS tools
-- [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
+### ZFS Calculators
+
 - [ZFS raidz calculator1](https://www.raidz-calculator.com/)
 - [ZFS raidz calculator2](https://zfs-calculator.com/)
-- [ZFS backup tools](https://github.com/Rudd-O/zfs-tools)
+
+### ZFS GUI
 - [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
 - :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
 - :skull:[ZFS Commander](https://github.com/manoeldesouza/zc)
-- [zfs-auto-snapshot](https://github.com/zfsonlinux/zfs-auto-snapshot)
+### ZFS Monitoring
+- [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
+### ZFS Backup tools
+
+- [bzfs](https://github.com/whoschek/bzfs)
+- [pyznapv](https://github.com/yboetz/pyznap)
+- [sanoid](https://github.com/jimsalterjrs/sanoid)
+- [zap](https://github.com/Jehops/zap)
 - [zfs_autobackup](https://github.com/psy0rz/zfs_autobackup)
-- [Rolling ZFS snapshots](https://github.com/zfsnap/zfsnap)
-- [ZFS backup & replication solution](https://github.com/zrepl/zrepl)
+- [zfs-autosnapshot](https://github.com/csdvrx/zfs-autosnapshot)
+- [zfs-auto-snapshot](https://github.com/zfsonlinux/zfs-auto-snapshot)
+- [zfs-backup via zfs send/recv over ssh](https://github.com/adaugherity/zfs-backup)
+- [zfs_mgmt](https://github.com/aranc23/zfs_mgmt)
+- [zfsnap](https://www.zfsnap.org/)
+- [zfsnap - Rolling ZFS snapshots](https://github.com/zfsnap/zfsnap)
+- [zfs-periodic](https://github.com/ross/zfs-periodic)
+- [zfs-remote-mirror -Setting up a remote ZFS mirror](https://github.com/hughobrien/zfs-remote-mirror)
+- [zfs-replicate](https://github.com/aaronhurt/zfs-replicate)
+- [zfs-snapshot-mgmt](http://marcin.studio4plus.com/en/zfs-file-history/howto.html)
+- [zfstools](https://github.com/bdrewery/zfstools)
+- [zfs-tools - ZFS backup tools](https://github.com/Rudd-O/zfs-tools)
+- [znapzend](https://www.znapzend.org/)
+- [zrep](http://www.bolthole.com/solaris/zrep/)
+- [zrepl - ZFS backup & replication solution](https://zrepl.github.io/)
+- [zxfer](https://github.com/allanjude/zxfer)
 
 ## ZFS Cheat Sheets
 - [ZFS Cheat Sheet](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
@@ -92,13 +123,12 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 
 ## ZFS Testing
 - [ZFS performance results](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)
-
+- [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
+  
 ## ZFS Encryption
-
 - [ZFS native encryption kick-off article](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
 - [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
 - [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
-- [Encrypt ZFS pool | Proxmox Support Forum]()
 - [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
 
 
@@ -123,7 +153,6 @@ MinIO -->
 
 ## Links
 - [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
-- [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
 - [ZFS walkthrough](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/)
 - [OpenZFS Releases](https://zfsonlinux.org/)
 - [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)

@@ -29,9 +29,13 @@
     - [RAID with ZFS (unofficial)](#raid-with-zfs-unofficial)
   - [Tutorials](#tutorials)
     - [Beginner Guides](#beginner-guides)
+    - [Snapshots, Backups and Replication](#snapshots-backups-and-replication)
   - [ZFS tools](#zfs-tools)
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
   - [ZFS Testing](#zfs-testing)
+  - [ZFS Encryption](#zfs-encryption)
+  - [ZFS on Windows](#zfs-on-windows)
+  - [Other Awesome ZFS](#other-awesome-zfs)
   - [Links](#links)
   - [Videos](#videos)
   - [License](#license)
@@ -58,6 +62,14 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ## Tutorials
 ### Beginner Guides
 - [ZFS 101](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
+- [ZFS Guide for starters and advanced users](https://forum.level1techs.com/t/zfs-guide-for-starters-and-advanced-users-concepts-pool-config-tuning-troubleshooting/196035)
+### Snapshots, Backups and Replication
+- [Secure External Backup with ZFS Native Encryptionp](https://pipo.blog/articles/20210803-secure-zfs-encrypted-extbackup)
+- [Sending and Receiving ZFS Data](https://docs.oracle.com/cd/E18752_01/html/819-5461/gbchx.html)
+- [How to use snapshots, clones and replication in ZFS on Linux](https://www.howtoforge.com/tutorial/how-to-use-snapshots-clones-and-replication-in-zfs-on-linux/)
+- [ setting up a remote ZFS mirror](https://github.com/hughobrien/zfs-remote-mirror)
+- [ZFS backup via zfs send/recv over ssh](https://github.com/adaugherity/zfs-backup)
+
 ## ZFS tools
 - [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
 - [ZFS raidz calculator1](https://www.raidz-calculator.com/)
@@ -66,14 +78,40 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
 - :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
 - :skull:[ZFS Commander](https://github.com/manoeldesouza/zc)
+- [zfs-auto-snapshot](https://github.com/zfsonlinux/zfs-auto-snapshot)
+- [zfs_autobackup](https://github.com/psy0rz/zfs_autobackup)
+- [Rolling ZFS snapshots](https://github.com/zfsnap/zfsnap)
+- [ZFS backup & replication solution](https://github.com/zrepl/zrepl)
 
 ## ZFS Cheat Sheets
 - [ZFS Cheat Sheet](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 - [ZFS Cheat Sheet2](https://www.zfshandbook.com/docs/references/cheatsheet/)
 - [ZFS Cheat Sheet3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)
+- [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
+- [ZFS RAIDZ Expansion Is Awesome but Has a Small Caveat](https://louwrentius.com/zfs-raidz-expansion-is-awesome-but-has-a-small-caveat.html)
 
 ## ZFS Testing
 - [ZFS performance results](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)
+
+## ZFS Encryption
+
+- [ZFS native encryption kick-off article](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
+- [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
+- [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
+- [Encrypt ZFS pool | Proxmox Support Forum]()
+- [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
+
+
+## ZFS on Windows
+- [Open ZFS on Windows](https://github.com/openzfsonwindows/openzfs)
+- [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)
+
+
+## Other Awesome ZFS
+- [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
+- [mamh-mixed/awesome-zfs](https://github.com/mamh-mixed/awesome-zfs)
+
+
 
 <!-- ## ZFS vs. other Filesystems -->
 <!-- Btrfs
@@ -86,14 +124,17 @@ MinIO -->
 ## Links
 - [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
 - [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
-- [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)
 - [ZFS walkthrough](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/)
+- [OpenZFS Releases](https://zfsonlinux.org/)
+- [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
+- [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
 
 <!-- ## Books -->
 
 ## Videos
 - [Cockpit+ZFS Manager plugin](https://www.youtube.com/watch?v=1HEO7qXa6jo&t=745s)
-
+- [Top Tools to Recover Data from ZFS Drives. How to Recover Data from ZFS File System](https://www.youtube.com/watch?v=Tk-Y9C8wBtg)
+- [The BEST Linux filesystem encryption in 2020 ext4 vs btrfs vs zfs vs luks vs gocryptfs comparison](https://www.youtube.com/watch?v=4hE_WC4NyaQ&t=10s)
 ## License
 
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).

@@ -1,8 +1,8 @@
 # Awesome OpenZFS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-
 > OpenZFS is an open-source implementation of the ZFS file system and volume manager initially developed by Sun Microsystems for the Solaris operating system, and is now maintained by the OpenZFS Project. Similar to the original ZFS, the implementation supports features like data compression, data deduplication, copy-on-write clones, snapshots, RAID-Z, and virtual devices that can create filesystems that span multiple disks. 
 > One of the main capabilities of OpenZFS is self-healing. The file system can detect and correct errors while in use, without the need for a dedicated file system checker. This feature makes it suitable for mission-critical applications that require high availability. 
+
 ## About
 ![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 > A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
@@ -17,7 +17,6 @@
   - with other FS (OpenZFS vs. Btrfs vs. GlusterFS vs. Ceph vs. HDFS vs. Lustre vs. MinIO)
 
 ## Contents
-
 - [Awesome OpenZFS ](#awesome-openzfs-)
   - [About](#about)
   - [Support](#support)
@@ -80,7 +79,6 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 
 ## ZFS tools
 ### ZFS Calculators
-
 - [ZFS raidz calculator1](https://www.raidz-calculator.com/)
 - [ZFS raidz calculator2](https://zfs-calculator.com/)
 
@@ -88,10 +86,11 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
 - :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
 - :skull:[ZFS Commander](https://github.com/manoeldesouza/zc)
+
 ### ZFS Monitoring
 - [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
-### ZFS Backup tools
 
+### ZFS Backup tools
 - [bzfs](https://github.com/whoschek/bzfs)
 - [pyznapv](https://github.com/yboetz/pyznap)
 - [sanoid](https://github.com/jimsalterjrs/sanoid)
@@ -131,17 +130,13 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
 - [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
 
-
 ## ZFS on Windows
 - [Open ZFS on Windows](https://github.com/openzfsonwindows/openzfs)
 - [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)
 
-
 ## Other Awesome ZFS
 - [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
 - [mamh-mixed/awesome-zfs](https://github.com/mamh-mixed/awesome-zfs)
-
-
 
 <!-- ## ZFS vs. other Filesystems -->
 <!-- Btrfs
@@ -157,6 +152,8 @@ MinIO -->
 - [OpenZFS Releases](https://zfsonlinux.org/)
 - [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
 - [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
+- [OpenZFS Data Protection](https://klarasystems.com/webinars/webinar--best-practices-for-keeping-your-data/)
+- [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
 
 <!-- ## Books -->
 
@@ -164,6 +161,6 @@ MinIO -->
 - [Cockpit+ZFS Manager plugin](https://www.youtube.com/watch?v=1HEO7qXa6jo&t=745s)
 - [Top Tools to Recover Data from ZFS Drives. How to Recover Data from ZFS File System](https://www.youtube.com/watch?v=Tk-Y9C8wBtg)
 - [The BEST Linux filesystem encryption in 2020 ext4 vs btrfs vs zfs vs luks vs gocryptfs comparison](https://www.youtube.com/watch?v=4hE_WC4NyaQ&t=10s)
-## License
 
+## License
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).

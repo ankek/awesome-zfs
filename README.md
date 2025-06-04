@@ -25,7 +25,7 @@
   - [Official Resources](#official-resources)
     - [RAIDZ official doc](#raidz-official-doc)
     - [dRAID official doc](#draid-official-doc)
-    - [RAID with ZFS (unofficial)](#raid-with-zfs-unofficial)
+    - [RAID with ZFS](#raid-with-zfs)
   - [Tutorials](#tutorials)
     - [Beginner Guides](#beginner-guides)
     - [Snapshots, Backups and Replication](#snapshots-backups-and-replication)
@@ -50,6 +50,7 @@
 
 ## Official Resources
 - [Official website](https://openzfs.org/)
+- [OpenZFS Releases](https://zfsonlinux.org/)
 - [OpenZFS GitHub](https://github.com/openzfs/zfs)
 - [Getting Started](https://openzfs.github.io/openzfs-docs/Getting%20Started/index.html)
 ### RAIDZ official doc
@@ -58,7 +59,7 @@ RAIDZ is a variation on RAID-5 that allows for better distribution of parity and
 ### dRAID official doc
 dRAID is a variant of [RAIDZ](#raidz) that provides integrated distributed hot spares which allows for faster resilvering while retaining the benefits of raidz.
 - [dRAID documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html#introduction)
-### RAID with ZFS (unofficial)
+### RAID with ZFS
 Open ZFS focused on [RAIDZ](#raidz-official-doc) and [dRAID](#draid-official-doc).
 Meanwhile it also support other RAID types like Stripe and Mirror.
 - [Simple ZFS Pools](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md#creating-simple-zfs-pools)
@@ -76,6 +77,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ### ZFS performance tuning and benchmarks
 - [Managing and Tracking Storage Performance – OpenZFS Storage Bottlenecks](https://klarasystems.com/articles/managing-tracking-storage-performance-openzfs-bottlenecks/)
 - [5 Reasons Why Your ZFS Storage Benchmarks Are Wrong](https://klarasystems.com/articles/5-reasons-why-your-zfs-storage-benchmarks-are-wrong/)
+- [FreeBSD vs. Linux – Which Operating System to Use for OpenZFS](https://klarasystems.com/articles/running-openzfs-choosing-between-freebsd-and-linux/)
 
 ## ZFS tools
 ### ZFS Calculators
@@ -83,12 +85,14 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS raidz calculator2](https://zfs-calculator.com/)
 
 ### ZFS GUI
-- [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
+- :skull:[Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
 - :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
 - :skull:[ZFS Commander](https://github.com/manoeldesouza/zc)
+- :warning:[ZfDash ZFS Management GUI / WEBUI](https://github.com/ad4mts/zfdash)
 
 ### ZFS Monitoring
 - [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
+- [Prometheus and ZFS](https://samber.github.io/awesome-prometheus-alerts/rules#zfs)
 
 ### ZFS Backup tools
 - [bzfs](https://github.com/whoschek/bzfs)
@@ -114,9 +118,10 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [zxfer](https://github.com/allanjude/zxfer)
 
 ## ZFS Cheat Sheets
-- [ZFS Cheat Sheet](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
-- [ZFS Cheat Sheet2](https://www.zfshandbook.com/docs/references/cheatsheet/)
-- [ZFS Cheat Sheet3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)
+- [ZFS Cheat Sheet #1](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
+- [ZFS Cheat Sheet #2](https://www.zfshandbook.com/docs/references/cheatsheet/)
+- [ZFS Cheat Sheet #3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)
+- [ZFS Cheatsheet + Backups tutorial](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/zfs.md)
 - [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
 - [ZFS RAIDZ Expansion Is Awesome but Has a Small Caveat](https://louwrentius.com/zfs-raidz-expansion-is-awesome-but-has-a-small-caveat.html)
 
@@ -149,11 +154,12 @@ MinIO -->
 ## Links
 - [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
 - [ZFS walkthrough](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/)
-- [OpenZFS Releases](https://zfsonlinux.org/)
 - [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
 - [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
 - [OpenZFS Data Protection](https://klarasystems.com/webinars/webinar--best-practices-for-keeping-your-data/)
 - [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
+- [Backup storage for thousands of virtual machines using free tools](https://blog.aenix.io/backup-storage-for-thousands-of-virtual-machines-using-free-tools-b3909004bef2)
+- [ZFS/ ZoL quick fixes](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/README.md)
 
 <!-- ## Books -->
 
@@ -161,6 +167,17 @@ MinIO -->
 - [Cockpit+ZFS Manager plugin](https://www.youtube.com/watch?v=1HEO7qXa6jo&t=745s)
 - [Top Tools to Recover Data from ZFS Drives. How to Recover Data from ZFS File System](https://www.youtube.com/watch?v=Tk-Y9C8wBtg)
 - [The BEST Linux filesystem encryption in 2020 ext4 vs btrfs vs zfs vs luks vs gocryptfs comparison](https://www.youtube.com/watch?v=4hE_WC4NyaQ&t=10s)
+- [Explaining ZFS LOG and L2ARC Cache: Do You Need One and How Do They Work?](https://www.youtube.com/watch?app=desktop&v=M4DLChRXJog)
+- [Tuesday Tech Tip - ZFS Best Practices](https://www.youtube.com/watch?app=desktop&v=oWneomAYpZY)
+<!-- - [TrueNAS Tutorial: Expanding Your ZFS RAIDz VDEV with a Single Drive](https://www.youtube.com/watch?app=desktop&v=uPCrDmjWV_I) -->
+- [ZFS Basics - Pools and VDEVs - Testing, Configuration, and Expansion](https://www.youtube.com/watch?app=desktop&v=IN_bTYYSXvU)
+- [ZFS Boot Menu - I put that stuff on everything](https://www.youtube.com/watch?app=desktop&v=FRo65qnK_70)
+- [ZFS 101: Leveraging Datasets and Zvols for Better Data Management](https://www.youtube.com/watch?app=desktop&v=0d4_nvdZdOc)
+- [OpenZFS novel algorithms: snapshots, space allocation, RAID-Z - Matt Ahrens](https://www.youtube.com/watch?v=uJGkyMxdNFE)
+- [Lecture on OpenZFS read and write code paths - Matt Ahrens](https://www.youtube.com/watch?v=ptY6-K78McY)
+- [OpenZFS Basics by Matt Ahrens and George Wilson](https://www.youtube.com/watch?v=MsY-BafQgj4)
+- [Software Tools to Read a ZFS Disk in Windows / How to Open a ZFS Disk in Windows](https://www.youtube.com/watch?v=uNQRt68gCnY)
+- [Project ZeroFault: OpenZFS-Level Safeguards Against Pool Faults](https://www.youtube.com/watch?v=mIctukeskiU)
 
 ## License
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).

@@ -48,6 +48,7 @@
 ## Legend
 - Abandoned :skull:
 - Monetized :moneybag:
+- Beta version :warning:
 
 ## Official Resources
 - [Official website](https://openzfs.org/)

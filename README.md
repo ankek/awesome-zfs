@@ -32,6 +32,7 @@
     - [ZFS performance tuning and benchmarks](#zfs-performance-tuning-and-benchmarks)
   - [ZFS tools](#zfs-tools)
     - [ZFS Calculators](#zfs-calculators)
+    - [ZFS RAID](#zfs-raid)
     - [ZFS GUI](#zfs-gui)
     - [ZFS Monitoring](#zfs-monitoring)
     - [ZFS Backup tools](#zfs-backup-tools)
@@ -83,7 +84,11 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ### ZFS Calculators
 - [ZFS raidz calculator1](https://www.raidz-calculator.com/)
 - [ZFS raidz calculator2](https://zfs-calculator.com/)
+- [ZFS Capacity Calculator](https://www.truenas.com/docs/references/zfscapacitycalculator/)
+- [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)
 
+### ZFS RAID
+- [ZFS RAID types](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 ### ZFS GUI
 - :skull:[Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
 - :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
@@ -160,6 +165,7 @@ MinIO -->
 - [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
 - [Backup storage for thousands of virtual machines using free tools](https://blog.aenix.io/backup-storage-for-thousands-of-virtual-machines-using-free-tools-b3909004bef2)
 - [ZFS/ ZoL quick fixes](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/README.md)
+- [ZFS RAIDZ vs. traditional RAID](https://www.klennet.com/notes/2019-07-04-raid5-vs-raidz.aspx)
 
 <!-- ## Books -->
 

@@ -1,10 +1,11 @@
 # RAIDZ levels comparison
 
-||ZFS Stripe|ZFS Mirror|RAIDZ|RAIDZ2|RAIDZ3|ZFS Stripe of mirrors|
+||ZFS Stripe|ZFS Mirror|RAIDZ1|RAIDZ2|RAIDZ3|ZFS Stripe of mirrors|
 |---|---|---|---|---|---|---|
 |Min number of disks | 1  |2 | 2 | 4 | 5 | 4 |
 |Fault to­le­ran­ce     | None | (N-1) disk | 1 disk | 2 disks | 3 disks | (N-1) disk in each N-disk mirror |
 |Disk space over­head | None | (N-1)/N| 1 disk | 2 disks | 3 disks | (N-1)*P for P stipe over N-disk mirrors |
+|Usable Storage      | ~97% | ~50% | ~64% | ~47% | ~38% | ~49% |
 |Read speed          | Very fast | Fast | Slow | Slow | Slow | Fast |
 |Write speed         | Very fast | Fair | Slow | Slow | Slow | Fair |
 |Hard­ware cost       | Cheap | High to highest | High | Very high | Very High (disks) | High to highest |

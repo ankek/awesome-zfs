@@ -9,16 +9,16 @@ RAIDZ is not exactly the same but very similar equivalent of Standard RAID with 
 For file storages with more than 12 disks ZFS developers propose to use [dRAID](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html).
 
 # Comparison table
-| Standard RAID level | ZFS RAID type | Description ||
+| Standard RAID level | ZFS RAID type | Description | Available Storage |
 |------|-------|--------|--------|
-| RAID 0 | Striped ZFS Pool | Data stripe ||
-| RAID 1 | Mirrored ZFS Pool | Data mirror ||
-| RAID 5 | RAIDZ1 | Data stripe with single distributed parity||
-| RAID 6 | RAIDZ2 | Data stripe with double distributed parity||
-| RAID 7 | RAIDZ3 | Data stripe with triple distributed parity||
-| RAID 10 (1+0) | Stripe of Mirrored ZFS Pools | Data stripe with series of mirrored drives||
-<!-- | RAID 50 | Stripe of RAIDZ1 | Data stripe with single distributed parity||
-| RAID 60 | Stripe of RAIDZ2 | Data stripe with double distributed parity||
+| RAID 0 | Striped ZFS Pool | Data stripe | ~97% |
+| RAID 1 | Mirrored ZFS Pool | Data mirror | ~50% |
+| RAID 5 | RAIDZ1 | Data stripe with single distributed parity| ~64% |
+| RAID 6 | RAIDZ2 | Data stripe with double distributed parity| ~47% |
+| RAID 7 | RAIDZ3 | Data stripe with triple distributed parity| ~38% |
+| RAID 10 (1+0) | Stripe of Mirrored ZFS Pools | Data stripe with series of mirrored drives| ~49% |
+<!-- | RAID 50 | Stripe of RAIDZ1 | Data stripe with single distributed parity| ~83% |
+| RAID 60 | Stripe of RAIDZ2 | Data stripe with double distributed parity| ~67% |
 | RAID 70 | Stripe of RAIDZ3 | Data stripe with triple distributed parity|| -->
 
 # Examples

@@ -12,9 +12,9 @@
 This project has no sponsors but we accepting donations to purchase hardware for OpenZFS [test rig](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share).  
 
 You can support us these ways:
-* :heart:Share the link to this [repo](https://github.com/ankek/awesome-zfs). 
-* :star:Give us a GitHub star. 
-* :trophy:[Buying a coffee](https://coff.ee/zfstestrig)  
+* :heart: Share the link to this [repo](https://github.com/ankek/awesome-zfs). 
+* :star: Give us a GitHub star. 
+* :trophy: [Buying us a coffee](https://coff.ee/zfstestrig)  
 
 We would like to compare performance with same set of [hardware components](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share):
   - for RAIDZ (RAIDZ1 vs. RAIDZ2 vs. RAIDZ3)

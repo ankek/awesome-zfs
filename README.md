@@ -7,10 +7,16 @@
 ![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 > A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
 
-## Support
-> [!IMPORTANT]  
-> Your [contributions](https://github.com/ankek/awesome-zfs/blob/main/contributing.md) are welcome!
-- This project has no sponsors but we accepting donations to purchase hardware for OpenZFS test rig. We would like to compare performance with same set of hardware components:
+## Support us
+
+This project has no sponsors but we accepting donations to purchase hardware for OpenZFS [test rig](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share).  
+
+You can support us these ways:
+* :heart:Share the link to this [repo](https://github.com/ankek/awesome-zfs). 
+* :star:Give us a GitHub star. 
+* :trophy:[Buying a coffee](https://coff.ee/zfstestrig)  
+
+We would like to compare performance with same set of [hardware components](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share):
   - for RAIDZ (RAIDZ1 vs. RAIDZ2 vs. RAIDZ3)
   - for dRAID (dRAID1 vs. dRAID2 vs. dRAID3)
   - for other RAIDs, supported by OpenZFS like RAID0 vs. RAID1 vs. RAID10
@@ -19,7 +25,7 @@
 ## Contents
 - [Awesome OpenZFS ](#awesome-openzfs-)
   - [About](#about)
-  - [Support](#support)
+  - [Support us](#support-us)
   - [Contents](#contents)
   - [Legend](#legend)
   - [Official Resources](#official-resources)
@@ -43,6 +49,7 @@
   - [Other Awesome ZFS](#other-awesome-zfs)
   - [Links](#links)
   - [Videos](#videos)
+  - [Contribution](#contribution)
   - [License](#license)
 
 ## Legend
@@ -186,5 +193,8 @@ MinIO -->
 - [Software Tools to Read a ZFS Disk in Windows / How to Open a ZFS Disk in Windows](https://www.youtube.com/watch?v=uNQRt68gCnY)
 - [Project ZeroFault: OpenZFS-Level Safeguards Against Pool Faults](https://www.youtube.com/watch?v=mIctukeskiU)
 
+## Contribution
+Your [contributions](https://github.com/ankek/awesome-zfs/blob/main/contributing.md) are welcome!
+ 
 ## License
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).

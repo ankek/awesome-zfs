@@ -6,7 +6,8 @@
 ## About
 ![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 > A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
-
+  
+From :estonia: with :heart:.
 ## Support us
 
 This project has no sponsors but we accepting donations to purchase hardware for OpenZFS [test rig](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share).  
@@ -16,11 +17,13 @@ You can support us these ways:
 * :star: Give us a GitHub star. 
 * :trophy: [Buying us a coffee](https://coff.ee/zfstestrig)  
 
-We would like to compare performance with same set of [hardware components](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share):
+We would like to compare performance with same set of [hardware components](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share) and all the money from "Buy Me a Coffee" will be spent on hardware:
   - for RAIDZ (RAIDZ1 vs. RAIDZ2 vs. RAIDZ3)
   - for dRAID (dRAID1 vs. dRAID2 vs. dRAID3)
   - for other RAIDs, supported by OpenZFS like RAID0 vs. RAID1 vs. RAID10
-  - with other FS (OpenZFS vs. Btrfs vs. GlusterFS vs. Ceph vs. HDFS vs. Lustre vs. MinIO)
+  - with other FS (OpenZFS vs. Btrfs vs. GlusterFS vs. Ceph vs. HDFS vs. Lustre vs. MinIO)  
+
+Please find more details about in [ZFS Performance Test scenario](https://github.com/ankek/awesome-zfs/blob/main/zfs-performance-test-scenario.md)
 
 ## Contents
 - [Awesome OpenZFS ](#awesome-openzfs-)

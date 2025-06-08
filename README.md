@@ -39,18 +39,20 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [Beginner Guides](#beginner-guides)
     - [Snapshots, Backups and Replication](#snapshots-backups-and-replication)
     - [ZFS performance tuning and benchmarks](#zfs-performance-tuning-and-benchmarks)
+    - [ZFS on root partition](#zfs-on-root-partition)
+    - [ZFS Data Protection](#zfs-data-protection)
+    - [ZFS Encryption](#zfs-encryption)
+    - [ZFS RAID](#zfs-raid)
   - [ZFS tools](#zfs-tools)
     - [ZFS Calculators](#zfs-calculators)
-    - [ZFS RAID](#zfs-raid)
     - [ZFS GUI](#zfs-gui)
     - [ZFS Monitoring](#zfs-monitoring)
     - [ZFS Backup tools](#zfs-backup-tools)
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
-  - [ZFS Testing](#zfs-testing)
-  - [ZFS Encryption](#zfs-encryption)
   - [ZFS on Windows](#zfs-on-windows)
+  - [ZFS on Mac](#zfs-on-mac)
   - [Other Awesome ZFS](#other-awesome-zfs)
-  - [Links](#links)
+  - [ZFS troubleshooting](#zfs-troubleshooting)
   - [Videos](#videos)
   - [Contribution](#contribution)
   - [License](#license)
@@ -80,16 +82,39 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ### Beginner Guides
 - [ZFS 101](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
 - [ZFS Guide for starters and advanced users](https://forum.level1techs.com/t/zfs-guide-for-starters-and-advanced-users-concepts-pool-config-tuning-troubleshooting/196035)
+- [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
+- [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
+- [ZFS walkthrough](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/)
+- [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
 ### Snapshots, Backups and Replication
 - [Secure External Backup with ZFS Native Encryptionp](https://pipo.blog/articles/20210803-secure-zfs-encrypted-extbackup)
 - [Sending and Receiving ZFS Data](https://docs.oracle.com/cd/E18752_01/html/819-5461/gbchx.html)
 - [How to use snapshots, clones and replication in ZFS on Linux](https://www.howtoforge.com/tutorial/how-to-use-snapshots-clones-and-replication-in-zfs-on-linux/)
 - [ZFS Snapshot Tools](https://klarasystems.com/articles/zfs-orchestration-part-1-zfs-snapshots-tools/)
 - [Efficient ZFS Replication with Snapshots](https://klarasystems.com/articles/zfs-orchestration-tools-part-2-replication/)
+- [Backup storage for thousands of virtual machines using free tools](https://blog.aenix.io/backup-storage-for-thousands-of-virtual-machines-using-free-tools-b3909004bef2)
 ### ZFS performance tuning and benchmarks
 - [Managing and Tracking Storage Performance – OpenZFS Storage Bottlenecks](https://klarasystems.com/articles/managing-tracking-storage-performance-openzfs-bottlenecks/)
 - [5 Reasons Why Your ZFS Storage Benchmarks Are Wrong](https://klarasystems.com/articles/5-reasons-why-your-zfs-storage-benchmarks-are-wrong/)
 - [FreeBSD vs. Linux – Which Operating System to Use for OpenZFS](https://klarasystems.com/articles/running-openzfs-choosing-between-freebsd-and-linux/)
+- [ZFS performance results](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)
+- [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
+### ZFS on root partition
+- [ZFS Bootloader for root-on-ZFS systems](https://github.com/zbm-dev/zfsbootmenu)
+### ZFS Data Protection
+- [How OpenZFS Provides Data Integrity Where Other File Systems Don’t](https://www.truenas.com/blog/data-integrity-openzfs/)
+  
+### ZFS Encryption
+- [ZFS native encryption kick-off article](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
+- [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
+- [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
+- [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
+
+### ZFS RAID
+- [ZFS RAID types](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
+- [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
+- [ZFS RAIDZ vs. traditional RAID](https://www.klennet.com/notes/2019-07-04-raid5-vs-raidz.aspx)
+<!-- ## ZFS Testing -->
 
 ## ZFS tools
 ### ZFS Calculators
@@ -98,8 +123,6 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS Capacity Calculator](https://www.truenas.com/docs/references/zfscapacitycalculator/)
 - [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)
 
-### ZFS RAID
-- [ZFS RAID types](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 ### ZFS GUI
 - :skull:[Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
 - :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
@@ -141,24 +164,21 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
 - [ZFS RAIDZ Expansion Is Awesome but Has a Small Caveat](https://louwrentius.com/zfs-raidz-expansion-is-awesome-but-has-a-small-caveat.html)
 
-## ZFS Testing
-- [ZFS performance results](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)
-- [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
-  
-## ZFS Encryption
-- [ZFS native encryption kick-off article](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
-- [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
-- [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
-- [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
-
 ## ZFS on Windows
-- [Open ZFS on Windows](https://github.com/openzfsonwindows/openzfs)
 - [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)
+- [Open ZFS on Windows](https://github.com/openzfsonwindows/openzfs)
+
+## ZFS on Mac
+- [OpenZFS on OS X ](https://github.com/openzfsonosx/zfs)
+- :skull: [An extensive ZFS setup on MacOS](https://justinscholz.de/2018/06/15/an-extensive-zfs-setup-on-macos)
+- :skull: [ZFS on macOS instructions and scripts](https://github.com/spl/zfs-on-mac)
 
 ## Other Awesome ZFS
 - [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
 - [mamh-mixed/awesome-zfs](https://github.com/mamh-mixed/awesome-zfs)
 
+## ZFS troubleshooting
+- [ZFS/ ZoL quick fixes](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/README.md)
 <!-- ## ZFS vs. other Filesystems -->
 <!-- Btrfs
 GlusterFS
@@ -167,16 +187,6 @@ HDFS
 Lustre
 MinIO -->
 
-## Links
-- [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
-- [ZFS walkthrough](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/)
-- [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
-- [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
-- [OpenZFS Data Protection](https://klarasystems.com/webinars/webinar--best-practices-for-keeping-your-data/)
-- [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
-- [Backup storage for thousands of virtual machines using free tools](https://blog.aenix.io/backup-storage-for-thousands-of-virtual-machines-using-free-tools-b3909004bef2)
-- [ZFS/ ZoL quick fixes](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/README.md)
-- [ZFS RAIDZ vs. traditional RAID](https://www.klennet.com/notes/2019-07-04-raid5-vs-raidz.aspx)
 
 <!-- ## Books -->
 

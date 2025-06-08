@@ -48,11 +48,16 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [ZFS GUI](#zfs-gui)
     - [ZFS Monitoring](#zfs-monitoring)
     - [ZFS Backup tools](#zfs-backup-tools)
+    - [ZFS other tools](#zfs-other-tools)
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
   - [ZFS on Windows](#zfs-on-windows)
   - [ZFS on Mac](#zfs-on-mac)
+  - [ZFS on Kubernetes](#zfs-on-kubernetes)
+  - [ZFS on Docker](#zfs-on-docker)
   - [Other Awesome ZFS](#other-awesome-zfs)
   - [ZFS troubleshooting](#zfs-troubleshooting)
+  - [ZFS vs. other Filesystems](#zfs-vs-other-filesystems)
+    - [Btrfs](#btrfs)
   - [Videos](#videos)
   - [Contribution](#contribution)
   - [License](#license)
@@ -124,14 +129,20 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)
 
 ### ZFS GUI
-- :skull:[Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
-- :moneybag:[Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
-- :skull:[ZFS Commander](https://github.com/manoeldesouza/zc)
-- :warning:[ZfDash ZFS Management GUI / WEBUI](https://github.com/ad4mts/zfdash)
+- :skull: [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
+- :moneybag: [Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
+- :skull: [ZFS Commander](https://github.com/manoeldesouza/zc)
+- :warning: [ZfDash ZFS Management GUI / WEBUI](https://github.com/ad4mts/zfdash)
+- [Terminal UI for inspecting and restoring file history on ZFS snapshots](https://github.com/markusressel/zfs-file-history)
 
 ### ZFS Monitoring
 - [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
 - [Prometheus and ZFS](https://samber.github.io/awesome-prometheus-alerts/rules#zfs)
+- [Prometheus ZFS exporter](https://github.com/pdf/zfs_exporter)
+- [Zabbix ZFS monitor](https://github.com/andrey-ivanov/zabbix-zfs)
+- [Nagios/Icinga plugin to monitor ZFS Pools](https://github.com/Napsty/check_zpools)
+- :skull: [Nagios plugin to check ZFS pool in the Linux environment](https://github.com/zlacelle/nagios_check_zfs_linux)
+- [collectd plugin for ZFS](https://github.com/strofimovsky/collectd-plugin-zfs)
 
 ### ZFS Backup tools
 - [bzfs](https://github.com/whoschek/bzfs)
@@ -156,6 +167,11 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [zrepl - ZFS backup & replication solution](https://zrepl.github.io/)
 - [zxfer](https://github.com/allanjude/zxfer)
 
+### ZFS other tools
+- [Simple bash script to rebalance pool data between all mirrors when adding vdevs to a pool](https://github.com/markusressel/zfs-inplace-rebalancing)
+- ["zpool iostats" for humans. Find the slow parts of ZFS pool](https://github.com/chadmiller/zpool-iostat-viz)
+- [Script to check ZFS replication status](https://github.com/bashclub/check-zfs-replication)
+
 ## ZFS Cheat Sheets
 - [ZFS Cheat Sheet #1](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 - [ZFS Cheat Sheet #2](https://www.zfshandbook.com/docs/references/cheatsheet/)
@@ -173,15 +189,25 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - :skull: [An extensive ZFS setup on MacOS](https://justinscholz.de/2018/06/15/an-extensive-zfs-setup-on-macos)
 - :skull: [ZFS on macOS instructions and scripts](https://github.com/spl/zfs-on-mac)
 
+## ZFS on Kubernetes
+- [ZFS backed persistent volumes on Kubernetes](https://github.com/openebs/zfs-localpv)
+- [Sync ZFS backups to an offsite location natively in Kubernetes](https://github.com/JohnStarich/zfs-sync-operator)
+- :skull: [Kubernetes operator to manage ZFS Datasets](https://github.com/yuanying/zfs-operator)
+- [ZFS Feature Discovery for Kubernetes](https://github.com/danielkza/zfs-feature-discovery)
+## ZFS on Docker
+- [Docker volume plugin for creating persistent volumes as a dedicated zfs dataset](https://github.com/TrilliumIT/docker-zfs-plugin)
+
 ## Other Awesome ZFS
 - [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
 - [mamh-mixed/awesome-zfs](https://github.com/mamh-mixed/awesome-zfs)
 
 ## ZFS troubleshooting
 - [ZFS/ ZoL quick fixes](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/README.md)
-<!-- ## ZFS vs. other Filesystems -->
-<!-- Btrfs
-GlusterFS
+
+## ZFS vs. other Filesystems
+### Btrfs
+- [Btrfs vs ZFS: The future of file systems](https://atix.de/en/blog/btrfs-vs-zfs-the-future-of-file-systems/)
+<!-- GlusterFS
 Ceph
 HDFS
 Lustre

@@ -22,6 +22,11 @@ Test rig with:
 1. Create ZFS pool.
 2. Run storage benchmarks to score ZFS pool performance.
 3. Run "copy" tests.
-   1. Copy files from local "file storage" (standalone HDD/SDD with Ext4/XFS filesystem) to ZFS pool.
-   2. Move files from local "file storage" (standalone HDD/SDD with Ext4/XFS filesystem) to ZFS pool.
+   1. Copy files (set of files #1) from local "file storage" (standalone HDD/SDD with Ext4/XFS filesystem) to ZFS pool . 
+   2. Move files (set of files #2) from local "file storage" (standalone HDD/SDD with Ext4/XFS filesystem) to ZFS pool.
+4. Simulate catastrophic disk failure (i.e. one of the HDDs in the zpool stops functioning)
+5. Run steps 2-4 to check performance in degraded state.
+6. Rebuild the Zpool.
+7. Run steps 2-4 to check performance in restored state.
+8. Save results in [Awesome OpenZFS](https://github.com/ankek/awesome-zfs)
 <!-- ## Test case #1 -->

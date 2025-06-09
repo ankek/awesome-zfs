@@ -231,6 +231,9 @@ MinIO -->
 - [OpenZFS Basics by Matt Ahrens and George Wilson](https://www.youtube.com/watch?v=MsY-BafQgj4)
 - [Software Tools to Read a ZFS Disk in Windows / How to Open a ZFS Disk in Windows](https://www.youtube.com/watch?v=uNQRt68gCnY)
 - [Project ZeroFault: OpenZFS-Level Safeguards Against Pool Faults](https://www.youtube.com/watch?v=mIctukeskiU)
+- [Understanding ZFS in the Real World: Mistakes Made, Lessons Learned & Future Plans](https://www.youtube.com/watch?v=OscKOZ5nxxA)
+- [Best Practice Architecture for Open-Source Storage using ZFS](https://www.youtube.com/watch?v=Dd-Ejtmgj-A)
+- [OpenZFS at scale: learning, challenges, and awesome customers by Sam Atkinson](https://www.youtube.com/watch?v=6Jt9LQcobXM)
 
 ## Contribution
 Your [contributions](https://github.com/ankek/awesome-zfs/blob/main/contributing.md) are welcome!

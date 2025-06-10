@@ -203,6 +203,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 
 ## ZFS troubleshooting
 - [ZFS/ ZoL quick fixes](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/README.md)
+- [PracticalZFS - Great collection of ZFS use cases](https://discourse.practicalzfs.com/
 
 ## ZFS vs. other Filesystems
 ### Btrfs

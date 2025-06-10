@@ -15,9 +15,9 @@ We would like to compare performance with same set of [hardware components](http
 
 ## Prerequisites
 Test rig with:
-* HDD/SDD with operationg system
-* HDD/SDD with file storage (used in Step3)
-* HBA (Host Bus Adapter) with attached HDDs (used in Step1)
+* HDD/SDD with operating system (options: Debian, Ubuntu)
+* HDD/SDD with file storage (used in Step 3)
+* HBA (Host Bus Adapter) with attached HDDs (used in Step 1)
 ## Steps
 1. Create ZFS pool.
 2. Run storage benchmarks to score ZFS pool performance.

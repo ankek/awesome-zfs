@@ -52,6 +52,7 @@ Please find more details about in [ZFS Performance Test scenario](https://github
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
   - [ZFS on Windows](#zfs-on-windows)
   - [ZFS on Mac](#zfs-on-mac)
+  - [ZFS on Raspberry Pi](#zfs-on-raspberry-pi)
   - [ZFS on Kubernetes](#zfs-on-kubernetes)
   - [ZFS on Docker](#zfs-on-docker)
   - [Other Awesome ZFS](#other-awesome-zfs)
@@ -108,13 +109,11 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS Bootloader for root-on-ZFS systems](https://github.com/zbm-dev/zfsbootmenu)
 ### ZFS Data Protection
 - [How OpenZFS Provides Data Integrity Where Other File Systems Don’t](https://www.truenas.com/blog/data-integrity-openzfs/)
-  
 ### ZFS Encryption
 - [ZFS native encryption kick-off article](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
 - [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
 - [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
 - [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
-
 ### ZFS RAID
 - [ZFS RAID types](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 - [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
@@ -134,12 +133,14 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - :skull: [ZFS Commander](https://github.com/manoeldesouza/zc)
 - :warning: [ZfDash ZFS Management GUI / WEBUI](https://github.com/ad4mts/zfdash)
 - [Terminal UI for inspecting and restoring file history on ZFS snapshots](https://github.com/markusressel/zfs-file-history)
+- [ZFS administration tool for Webmin](https://github.com/jonmatifa/zfsmanager)
 
 ### ZFS Monitoring
 - [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
 - [Prometheus and ZFS](https://samber.github.io/awesome-prometheus-alerts/rules#zfs)
 - [Prometheus ZFS exporter](https://github.com/pdf/zfs_exporter)
 - [Zabbix ZFS monitor](https://github.com/andrey-ivanov/zabbix-zfs)
+- [Zabbix template and user parameters to monitor zfs on linux](https://github.com/Cosium/zabbix_zfs-on-linux)
 - [Nagios/Icinga plugin to monitor ZFS Pools](https://github.com/Napsty/check_zpools)
 - :skull: [Nagios plugin to check ZFS pool in the Linux environment](https://github.com/zlacelle/nagios_check_zfs_linux)
 - [collectd plugin for ZFS](https://github.com/strofimovsky/collectd-plugin-zfs)
@@ -152,11 +153,15 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [zfs_autobackup](https://github.com/psy0rz/zfs_autobackup)
 - [zfs-autosnapshot](https://github.com/csdvrx/zfs-autosnapshot)
 - [zfs-auto-snapshot](https://github.com/zfsonlinux/zfs-auto-snapshot)
-- [zfs-backup via zfs send/recv over ssh](https://github.com/adaugherity/zfs-backup)
+- [zfs-backup](https://github.com/adaugherity/zfs-backup)
+- [zfs-backup-blob](https://github.com/backup-blob/zfs-backup-blob)
+- [zfs-backup-manager](https://github.com/TheUbuntuGuy/zfs-backup-manager)
 - [zfs_mgmt](https://github.com/aranc23/zfs_mgmt)
 - [zfsnap](https://www.zfsnap.org/)
 - [zfsnap - Rolling ZFS snapshots](https://github.com/zfsnap/zfsnap)
 - [zfs-periodic](https://github.com/ross/zfs-periodic)
+- [zfs-prune-snapshots](https://github.com/bahamas10/zfs-prune-snapshots)
+- [zfs-rclone](https://github.com/bjschafer/zfs-rclone)
 - [zfs-remote-mirror -Setting up a remote ZFS mirror](https://github.com/hughobrien/zfs-remote-mirror)
 - [zfs-replicate](https://github.com/aaronhurt/zfs-replicate)
 - [zfs-snapshot-mgmt](http://marcin.studio4plus.com/en/zfs-file-history/howto.html)
@@ -171,6 +176,14 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [Simple bash script to rebalance pool data between all mirrors when adding vdevs to a pool](https://github.com/markusressel/zfs-inplace-rebalancing)
 - ["zpool iostats" for humans. Find the slow parts of ZFS pool](https://github.com/chadmiller/zpool-iostat-viz)
 - [Script to check ZFS replication status](https://github.com/bashclub/check-zfs-replication)
+- [ZSys - daemon and client for zfs systems](https://github.com/ubuntu/zsys)
+- [ZFS Boot Environment manager](https://github.com/johnramsden/zectl)
+- [HomeLab setup with ZFS, Docker & Ansible](https://github.com/OliverHi/zfs-homeserver)
+- [ansible-zfs](https://github.com/mrlesmithjr/ansible-zfs)
+- [ZTop](https://github.com/asomers/ztop)
+- [ZFS statistics tool](https://github.com/mmatuska/zfs-stats)
+- [Script to load ZFS encryption keys](https://github.com/Rau-N/zfs-key-loader)
+- [zfs-health-check](https://github.com/norsemangrey/zfs-health-check)
 
 ## ZFS Cheat Sheets
 - [ZFS Cheat Sheet #1](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
@@ -183,19 +196,26 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ## ZFS on Windows
 - [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)
 - [Open ZFS on Windows](https://github.com/openzfsonwindows/openzfs)
+- [ZFS on WSL](https://github.com/alexhaydock/zfs-on-wsl)
 
 ## ZFS on Mac
 - [OpenZFS on OS X ](https://github.com/openzfsonosx/zfs)
 - :skull: [An extensive ZFS setup on MacOS](https://justinscholz.de/2018/06/15/an-extensive-zfs-setup-on-macos)
 - :skull: [ZFS on macOS instructions and scripts](https://github.com/spl/zfs-on-mac)
 
+## ZFS on Raspberry Pi
+- [Arm NAS](https://github.com/geerlingguy/arm-nas)
+
 ## ZFS on Kubernetes
 - [ZFS backed persistent volumes on Kubernetes](https://github.com/openebs/zfs-localpv)
 - [Sync ZFS backups to an offsite location natively in Kubernetes](https://github.com/JohnStarich/zfs-sync-operator)
 - :skull: [Kubernetes operator to manage ZFS Datasets](https://github.com/yuanying/zfs-operator)
 - [ZFS Feature Discovery for Kubernetes](https://github.com/danielkza/zfs-feature-discovery)
+- [Dynamic ZFS persistent volume provisioner for Kubernetes](https://github.com/ccremer/kubernetes-zfs-provisioner)
+
 ## ZFS on Docker
 - [Docker volume plugin for creating persistent volumes as a dedicated zfs dataset](https://github.com/TrilliumIT/docker-zfs-plugin)
+- [ZFS snapshotter plugin for containerd](https://github.com/containerd/zfs)
 
 ## Other Awesome ZFS
 - [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)

@@ -122,7 +122,6 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 
 ## ZFS tools
 ### ZFS Calculators
-- [ZFS raidz calculator1](https://www.raidz-calculator.com/)
 - [ZFS raidz calculator2](https://zfs-calculator.com/)
 - [ZFS Capacity Calculator](https://www.truenas.com/docs/references/zfscapacitycalculator/)
 - [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)

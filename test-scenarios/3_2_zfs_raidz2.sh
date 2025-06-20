@@ -1,4 +1,4 @@
-# run as root
+# Please run as root
 ############
 echo "###################################"
 echo "RAID-Z2 Pool"

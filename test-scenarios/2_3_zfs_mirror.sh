@@ -1,7 +1,7 @@
-# run as root
+# Please run as root
 ############
 echo "###################################"
-echo "Mirrored (RAID 1) Pool"
+echo "ZFS Mirrored (similar to RAID 1) Pool"
 echo "Number of Drives - 2"
 echo ""
 zpool create test-pool mirror /scratch/3g-1.img /scratch/3g-2.img

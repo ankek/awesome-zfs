@@ -1,7 +1,7 @@
-# run as root
+# Please run as root
 ############
 echo "###################################"
-echo "Striped (RAID 0) Pool"
+echo "ZFS Striped (RAID 0) Pool"
 echo "Number of Drives - 2"
 echo ""
 zpool create test-pool /scratch/3g-1.img /scratch/3g-2.img

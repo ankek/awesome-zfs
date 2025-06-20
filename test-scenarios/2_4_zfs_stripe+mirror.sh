@@ -1,7 +1,7 @@
-# run as root
+# Please run as root
 ############
 echo "###################################"
-echo "Striped + Mirrored (RAID 10) Pool"
+echo "ZFS Striped + Mirrored (similar to RAID 10) Pool"
 echo "Number of Drives - 4"
 echo "Number of Mirrors - 2"
 echo ""

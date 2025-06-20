@@ -1,7 +1,7 @@
-# run as root
+# Please run as root
 ############
 echo "###################################"
-echo "Single Drive Pool"
+echo "ZFS Single Drive Pool"
 echo "Number of Drives - 1"
 echo ""
 zpool create test-pool /scratch/3g-1.img

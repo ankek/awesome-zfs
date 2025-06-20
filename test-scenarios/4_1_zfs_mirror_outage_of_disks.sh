@@ -1,10 +1,10 @@
-# run as root
+# Please run as root
 ############
 for i in {1..2}; do truncate -s 3G /scratch/3g-$i.img; done
 for i in {1..2}; do truncate -s 7G /scratch/7g-$i.img; done
 for i in {1..2}; do truncate -s 12G /scratch/12g-$i.img; done
 echo "###################################"
-echo "Mirrored (RAID 1) Pool"
+echo "ZFS Mirrored (RAID 1) Pool"
 echo "Number of Drives - 2"
 echo ""
 zpool create test-pool mirror /scratch/3g-1.img /scratch/3g-2.img

@@ -1,4 +1,4 @@
-# run as root
+# Please run as root
 ############
 for i in {1..5}; do truncate -s 3G /scratch/3g-$i.img; done
 for i in {1..5}; do truncate -s 7G /scratch/7g-$i.img; done

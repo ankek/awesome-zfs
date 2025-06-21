@@ -7,7 +7,8 @@
 ![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 > A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
   
-From :ee: with :heart:.
+From :estonia: with :heart:.
+![Estonian flag](https://en.wikipedia.org/wiki/Flag_of_Estonia#/media/File:Flag_of_Estonia.svg)
 ## Support us
 
 This project has no sponsors but we accepting donations to purchase hardware for OpenZFS [test rig](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share).  

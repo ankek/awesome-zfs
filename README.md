@@ -7,7 +7,7 @@
 ![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 > A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
   
-From :estonia: with :heart:.
+From :ee: with :heart:.
 ## Support us
 
 This project has no sponsors but we accepting donations to purchase hardware for OpenZFS [test rig](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share).  
@@ -42,7 +42,8 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [ZFS on root partition](#zfs-on-root-partition)
     - [ZFS Data Protection](#zfs-data-protection)
     - [ZFS Encryption](#zfs-encryption)
-    - [ZFS RAID](#zfs-raid)
+    - [ZFS RAID and RAIDZ](#zfs-raid-and-raidz)
+    - [ZFS dRAID](#zfs-draid)
   - [ZFS tools](#zfs-tools)
     - [ZFS Calculators](#zfs-calculators)
     - [ZFS GUI](#zfs-gui)
@@ -67,6 +68,8 @@ Please find more details about in [ZFS Performance Test scenario](https://github
 - Abandoned :skull:
 - Monetized :moneybag:
 - Beta version :warning:
+- Something wrong :broken_heart:
+- Higly recommended :cupid:
 
 ## Official Resources
 - [Official website](https://openzfs.org/)
@@ -87,6 +90,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ## Tutorials
 ### Beginner Guides
 - [ZFS 101](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
+- [OpenZFS Topology FAQ: What’s a zpool? What’s a vdev?](https://discourse.practicalzfs.com/t/openzfs-topology-faq-whats-a-zpool-whats-a-vdev/17)
 - [ZFS Guide for starters and advanced users](https://forum.level1techs.com/t/zfs-guide-for-starters-and-advanced-users-concepts-pool-config-tuning-troubleshooting/196035)
 - [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
 - [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
@@ -105,6 +109,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [FreeBSD vs. Linux – Which Operating System to Use for OpenZFS](https://klarasystems.com/articles/running-openzfs-choosing-between-freebsd-and-linux/)
 - [ZFS performance results](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)
 - [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
+- [ZFS RAID vs. Linux mdraid](https://arstechnica.com/gadgets/2020/05/return-to-raid-the-ars-readers-what-if-edition/)
 ### ZFS on root partition
 - [ZFS Bootloader for root-on-ZFS systems](https://github.com/zbm-dev/zfsbootmenu)
 ### ZFS Data Protection
@@ -114,15 +119,17 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
 - [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
 - [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
-### ZFS RAID
+### ZFS RAID and RAIDZ
 - [ZFS RAID types](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 - [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
 - [ZFS RAIDZ vs. traditional RAID](https://www.klennet.com/notes/2019-07-04-raid5-vs-raidz.aspx)
-<!-- ## ZFS Testing -->
+- [ZFS versus RAID](https://arstechnica.com/gadgets/2020/05/zfs-versus-raid-eight-ironwolf-disks-two-filesystems-one-winner/)
+### ZFS dRAID
+- [Let’s talk about its brand-new dRAID vdevs](https://arstechnica.com/gadgets/2021/07/a-deep-dive-into-openzfs-2-1s-new-distributed-raid-topology/)
 
 ## ZFS tools
 ### ZFS Calculators
-- [ZFS raidz calculator2](https://zfs-calculator.com/)
+- [ZFS raidz calculator](https://zfs-calculator.com/)
 - [ZFS Capacity Calculator](https://www.truenas.com/docs/references/zfscapacitycalculator/)
 - [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)
 
@@ -145,31 +152,31 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [collectd plugin for ZFS](https://github.com/strofimovsky/collectd-plugin-zfs)
 
 ### ZFS Backup tools
-- [bzfs](https://github.com/whoschek/bzfs)
-- [pyznapv](https://github.com/yboetz/pyznap)
-- [sanoid](https://github.com/jimsalterjrs/sanoid)
-- [zap](https://github.com/Jehops/zap)
-- [zfs_autobackup](https://github.com/psy0rz/zfs_autobackup)
-- [zfs-autosnapshot](https://github.com/csdvrx/zfs-autosnapshot)
-- [zfs-auto-snapshot](https://github.com/zfsonlinux/zfs-auto-snapshot)
-- [zfs-backup](https://github.com/adaugherity/zfs-backup)
-- [zfs-backup-blob](https://github.com/backup-blob/zfs-backup-blob)
-- [zfs-backup-manager](https://github.com/TheUbuntuGuy/zfs-backup-manager)
-- [zfs_mgmt](https://github.com/aranc23/zfs_mgmt)
-- [zfsnap](https://www.zfsnap.org/)
+- [bzfs - Backup command line tool](https://github.com/whoschek/bzfs)
+- [pyznapv - ZFS snapshot tool](https://github.com/yboetz/pyznap)
+- [sanoid - Policy-driven snapshot management and replication tool](https://github.com/jimsalterjrs/sanoid)
+- [zap - Management of zfs snapshots](https://github.com/Jehops/zap)
+- [zfs_autobackup - ZFS autobackup is used to periodicly backup ZFS filesystems to other locations](https://github.com/psy0rz/zfs_autobackup)
+- [zfs-autosnapshot - Shell script that takes snapshots](https://github.com/csdvrx/zfs-autosnapshot)
+- [zfs-auto-snapshot - ZFS Automatic Snapshot Service](https://github.com/zfsonlinux/zfs-auto-snapshot)
+- [zfs-backup - ZFS backup via zfs send/recv over SSH](https://github.com/adaugherity/zfs-backup)
+- [zfs-backup-blob - Backup-tools for ZFS to blob-storage backups](https://github.com/backup-blob/zfs-backup-blob)
+- [zfs-backup-manager - Automatic ZFS Backup Management Tool](https://github.com/TheUbuntuGuy/zfs-backup-manager)
+- [zfs_mgmt - Managing zfs snapshots](https://github.com/aranc23/zfs_mgmt)
+- [zfsnap - Rolling ZFS snapshots](https://www.zfsnap.org/)
 - [zfsnap - Rolling ZFS snapshots](https://github.com/zfsnap/zfsnap)
-- [zfs-periodic](https://github.com/ross/zfs-periodic)
-- [zfs-prune-snapshots](https://github.com/bahamas10/zfs-prune-snapshots)
-- [zfs-rclone](https://github.com/bjschafer/zfs-rclone)
-- [zfs-remote-mirror -Setting up a remote ZFS mirror](https://github.com/hughobrien/zfs-remote-mirror)
-- [zfs-replicate](https://github.com/aaronhurt/zfs-replicate)
-- [zfs-snapshot-mgmt](http://marcin.studio4plus.com/en/zfs-file-history/howto.html)
+- [zfs-periodic - Scripts to take zfs snapshots with periodic on FreeBSD](https://github.com/ross/zfs-periodic)
+- [zfs-prune-snapshots - Remove snapshots from one or more zpools that match given criteria](https://github.com/bahamas10/zfs-prune-snapshots)
+- [zfs-rclone - Script to periodically backup ZFS datasets using rclone](https://github.com/bjschafer/zfs-rclone)
+- [zfs-remote-mirror - Setting up a remote ZFS mirror](https://github.com/hughobrien/zfs-remote-mirror)
+- [zfs-replicate - Shell script to manage ZFS snapshot replication locally, or between hosts. ](https://github.com/aaronhurt/zfs-replicate)
+- [zfs-snapshot-mgmt - Script for automating ZFS snapshot creation for FreeBSD](http://marcin.studio4plus.com/en/zfs-file-history/howto.html)
 - [zfstools](https://github.com/bdrewery/zfstools)
 - [zfs-tools - ZFS backup tools](https://github.com/Rudd-O/zfs-tools)
-- [znapzend](https://www.znapzend.org/)
-- [zrep](http://www.bolthole.com/solaris/zrep/)
+- [znapzend - High performance open source ZFS backup with mbuffer and ssh support](https://www.znapzend.org/)
+- [zrep - ZFS replication and failover](http://www.bolthole.com/solaris/zrep/)
 - [zrepl - ZFS backup & replication solution](https://zrepl.github.io/)
-- [zxfer](https://github.com/allanjude/zxfer)
+- [zxfer - Script for managing ZFS snapshot replication ](https://github.com/allanjude/zxfer)
 
 ### ZFS other tools
 - [Simple bash script to rebalance pool data between all mirrors when adding vdevs to a pool](https://github.com/markusressel/zfs-inplace-rebalancing)

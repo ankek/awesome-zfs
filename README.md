@@ -8,7 +8,6 @@
 > A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
   
 From :estonia: with :heart:.
-![Estonian flag](https://flagcdn.com/w160/ee.png)
 ## Support us
 
 This project has no sponsors but we accepting donations to purchase hardware for OpenZFS [test rig](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share).  
@@ -268,3 +267,5 @@ Your [contributions](https://github.com/ankek/awesome-zfs/blob/main/contributing
  
 ## License
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).
+
+![Estonian flag](https://flagcdn.com/w160/ee.png)

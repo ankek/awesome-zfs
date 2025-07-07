@@ -46,6 +46,7 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [ZFS dRAID](#zfs-draid)
   - [ZFS tools](#zfs-tools)
     - [ZFS Calculators](#zfs-calculators)
+    - [OpenZFS System Administration Commands](#openzfs-system-administration-commands)
     - [ZFS GUI](#zfs-gui)
     - [ZFS Monitoring](#zfs-monitoring)
     - [ZFS Backup tools](#zfs-backup-tools)
@@ -133,6 +134,12 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS raidz calculator](https://zfs-calculator.com/)
 - [ZFS Capacity Calculator](https://www.truenas.com/docs/references/zfscapacitycalculator/)
 - [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)
+
+### OpenZFS System Administration Commands
+- [zdb — display ZFS storage pool debugging and consistency information](https://openzfs.github.io/openzfs-docs/man/master/8/zdb.8.html)
+- [fsck.zfs — dummy ZFS filesystem checker](https://openzfs.github.io/openzfs-docs/man/master/8/fsck.zfs.8.html)
+- [ZED — ZFS Event Daemon](https://openzfs.github.io/openzfs-docs/man/master/8/zed.8.html)
+- [zfs_prepare_disk](https://openzfs.github.io/openzfs-docs/man/master/8/zfs_prepare_disk.8.html)
 
 ### ZFS GUI
 - :skull: [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)

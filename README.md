@@ -115,7 +115,8 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ### ZFS Data Protection
 - [How OpenZFS Provides Data Integrity Where Other File Systems Don’t](https://www.truenas.com/blog/data-integrity-openzfs/)
 ### ZFS Encryption
-- [ZFS native encryption kick-off article](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
+- [A quick-start guide to OpenZFS native encryption](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
+- [ZFS handbook - Encryption](https://www.zfshandbook.com/docs/security/encryption/)
 - [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
 - [ Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
 - [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)

@@ -90,7 +90,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 
 ## Tutorials
 ### Beginner Guides
-- [ZFS 101](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
+- :cupid: [ZFS 101](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
 - [OpenZFS Topology FAQ: What’s a zpool? What’s a vdev?](https://discourse.practicalzfs.com/t/openzfs-topology-faq-whats-a-zpool-whats-a-vdev/17)
 - [ZFS Guide for starters and advanced users](https://forum.level1techs.com/t/zfs-guide-for-starters-and-advanced-users-concepts-pool-config-tuning-troubleshooting/196035)
 - [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
@@ -125,7 +125,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS RAID types](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
 - [Understanding ZFS RAID Levels: Types, Modes, and Configurations](https://www.diskinternals.com/raid-recovery/zfs-raid-types/)
 - [ZFS RAIDZ vs. traditional RAID](https://www.klennet.com/notes/2019-07-04-raid5-vs-raidz.aspx)
-- [ZFS versus RAID](https://arstechnica.com/gadgets/2020/05/zfs-versus-raid-eight-ironwolf-disks-two-filesystems-one-winner/)
+- :cupid: [ZFS versus RAID](https://arstechnica.com/gadgets/2020/05/zfs-versus-raid-eight-ironwolf-disks-two-filesystems-one-winner/)
 ### ZFS dRAID
 - [Let’s talk about its brand-new dRAID vdevs](https://arstechnica.com/gadgets/2021/07/a-deep-dive-into-openzfs-2-1s-new-distributed-raid-topology/)
 
@@ -136,10 +136,10 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)
 
 ### OpenZFS System Administration Commands
-- [zdb — display ZFS storage pool debugging and consistency information](https://openzfs.github.io/openzfs-docs/man/master/8/zdb.8.html)
-- [fsck.zfs — dummy ZFS filesystem checker](https://openzfs.github.io/openzfs-docs/man/master/8/fsck.zfs.8.html)
-- [ZED — ZFS Event Daemon](https://openzfs.github.io/openzfs-docs/man/master/8/zed.8.html)
-- [zfs_prepare_disk](https://openzfs.github.io/openzfs-docs/man/master/8/zfs_prepare_disk.8.html)
+- :cupid: [zdb — display ZFS storage pool debugging and consistency information](https://openzfs.github.io/openzfs-docs/man/master/8/zdb.8.html)
+- :cupid: [fsck.zfs — dummy ZFS filesystem checker](https://openzfs.github.io/openzfs-docs/man/master/8/fsck.zfs.8.html)
+- :cupid: [ZED — ZFS Event Daemon](https://openzfs.github.io/openzfs-docs/man/master/8/zed.8.html)
+- :cupid: [zfs_prepare_disk](https://openzfs.github.io/openzfs-docs/man/master/8/zfs_prepare_disk.8.html)
 
 ### ZFS GUI
 - :skull: [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
@@ -188,23 +188,23 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 
 ### ZFS other tools
 - [Simple bash script to rebalance pool data between all mirrors when adding vdevs to a pool](https://github.com/markusressel/zfs-inplace-rebalancing)
-- ["zpool iostats" for humans. Find the slow parts of ZFS pool](https://github.com/chadmiller/zpool-iostat-viz)
+- :cupid: ["zpool iostats" for humans. Find the slow parts of ZFS pool](https://github.com/chadmiller/zpool-iostat-viz)
 - [Script to check ZFS replication status](https://github.com/bashclub/check-zfs-replication)
 - [ZSys - daemon and client for zfs systems](https://github.com/ubuntu/zsys)
 - [ZFS Boot Environment manager](https://github.com/johnramsden/zectl)
 - [HomeLab setup with ZFS, Docker & Ansible](https://github.com/OliverHi/zfs-homeserver)
 - [ansible-zfs](https://github.com/mrlesmithjr/ansible-zfs)
 - [ZTop](https://github.com/asomers/ztop)
-- [ZFS statistics tool](https://github.com/mmatuska/zfs-stats)
+- :cupid: [ZFS statistics tool](https://github.com/mmatuska/zfs-stats)
 - [Script to load ZFS encryption keys](https://github.com/Rau-N/zfs-key-loader)
 - [zfs-health-check](https://github.com/norsemangrey/zfs-health-check)
 
 ## ZFS Cheat Sheets
 - [ZFS Cheat Sheet #1](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
-- [ZFS Cheat Sheet #2](https://www.zfshandbook.com/docs/references/cheatsheet/)
-- [ZFS Cheat Sheet #3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)
+- :cupid: [ZFS Cheat Sheet #2](https://www.zfshandbook.com/docs/references/cheatsheet/)
+- :cupid: [ZFS Cheat Sheet #3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)
 - [ZFS Cheatsheet + Backups tutorial](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/zfs.md)
-- [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
+- :cupid: [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
 - [ZFS RAIDZ Expansion Is Awesome but Has a Small Caveat](https://louwrentius.com/zfs-raidz-expansion-is-awesome-but-has-a-small-caveat.html)
 
 ## ZFS on Windows
@@ -218,7 +218,8 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - :skull: [ZFS on macOS instructions and scripts](https://github.com/spl/zfs-on-mac)
 
 ## ZFS on Raspberry Pi
-- [Arm NAS](https://github.com/geerlingguy/arm-nas)
+- [Arm NAS](https://github.com/geerlingguy/arm-nas#secondary-nas---raspberry-pi-5-with-sata-hat)
+- :skull: [Raspberry Pi with a ZFS root filesystem (Ubuntu/Manjaro ARM)](https://github.com/jrcichra/rpi-zfs-root)
 
 ## ZFS on Kubernetes
 - [ZFS backed persistent volumes on Kubernetes](https://github.com/openebs/zfs-localpv)
@@ -232,7 +233,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS snapshotter plugin for containerd](https://github.com/containerd/zfs)
 
 ## Other Awesome ZFS
-- [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
+- :cupid: [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
 - [mamh-mixed/awesome-zfs](https://github.com/mamh-mixed/awesome-zfs)
 
 ## ZFS troubleshooting

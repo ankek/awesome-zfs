@@ -4,8 +4,16 @@ We would like to compare performance with same set of [hardware components](http
 Measure performance:
   - for RAIDZ (RAIDZ1 vs. RAIDZ2 vs. RAIDZ3)
   - for dRAID (dRAID1 vs. dRAID2 vs. dRAID3)
-  - for other RAIDs, supported by OpenZFS like RAID0 vs. RAID1 vs. RAID10
+  - for other RAIDs, supported by OpenZFS (RAID0 vs. RAID1 vs. RAID10)
+  - for other RAIDs (RAID5-like), supported by Linux (RAIDZ1 vs. MDADM vs. LVM vs. LVM+VDO)
   - with other FS (OpenZFS vs. Btrfs vs. GlusterFS vs. Ceph vs. HDFS vs. Lustre vs. MinIO)
+  - Extra tests:
+    - Encrypted vs. Unencrypted RAIDZ1
+    - Encrypted vs. Unencrypted RAIDZ2
+    - Encrypted vs. Unencrypted RAIDZ3
+    - Encrypted vs. Unencrypted dRAID1
+    - Encrypted vs. Unencrypted dRAID2
+    - Encrypted vs. Unencrypted dRAID3
 
 ## Why?
 The idea of this ZFS test rig to make measures with simple set of hardware components (non-server components) and show the HomeLab usage with ZFS as main storage filesystem.
@@ -13,6 +21,7 @@ The idea of this ZFS test rig to make measures with simple set of hardware compo
 ## Contents
 - [ZFS Performance Test scenario](#zfs-performance-test-scenario)
   - [Intro](#intro)
+  - [Why?](#why)
   - [Contents](#contents)
   - [Prerequisites](#prerequisites)
   - [Steps](#steps)

@@ -31,20 +31,20 @@ Please find more details about in [ZFS Performance Test scenario](https://github
   - [Support us](#support-us)
   - [Contents](#contents)
   - [Legend](#legend)
-  - [Official Resources](#official-resources)
-    - [RAIDZ official doc](#raidz-official-doc)
-    - [dRAID official doc](#draid-official-doc)
-    - [RAID with ZFS](#raid-with-zfs)
-  - [Tutorials](#tutorials)
-    - [Beginner Guides](#beginner-guides)
-    - [Snapshots, Backups and Replication](#snapshots-backups-and-replication)
+  - [📘 Official Resources](#-official-resources)
+    - [🧭 RAIDZ official doc](#-raidz-official-doc)
+    - [🧭 dRAID official doc](#-draid-official-doc)
+    - [🧭 RAID with ZFS](#-raid-with-zfs)
+  - [📚 Tutorials](#-tutorials)
+    - [🛣️ Beginner Guides](#️-beginner-guides)
+    - [🔁 Snapshots, Backups and Replication](#-snapshots-backups-and-replication)
     - [ZFS performance tuning and benchmarks](#zfs-performance-tuning-and-benchmarks)
     - [ZFS on root partition](#zfs-on-root-partition)
     - [ZFS Data Protection](#zfs-data-protection)
     - [ZFS Encryption](#zfs-encryption)
     - [ZFS RAID and RAIDZ](#zfs-raid-and-raidz)
     - [ZFS dRAID](#zfs-draid)
-  - [ZFS tools](#zfs-tools)
+  - [🛠️ ZFS tools](#️-zfs-tools)
     - [ZFS Calculators](#zfs-calculators)
     - [OpenZFS System Administration Commands](#openzfs-system-administration-commands)
     - [ZFS GUI](#zfs-gui)
@@ -58,9 +58,10 @@ Please find more details about in [ZFS Performance Test scenario](https://github
   - [ZFS on Kubernetes](#zfs-on-kubernetes)
   - [ZFS on Docker](#zfs-on-docker)
   - [Other Awesome ZFS](#other-awesome-zfs)
-  - [ZFS troubleshooting](#zfs-troubleshooting)
+  - [🧰 ZFS troubleshooting](#-zfs-troubleshooting)
   - [ZFS vs. other Filesystems](#zfs-vs-other-filesystems)
     - [Btrfs](#btrfs)
+  - [Books and Presentations](#books-and-presentations)
   - [Videos](#videos)
   - [Contribution](#contribution)
   - [License](#license)
@@ -72,24 +73,24 @@ Please find more details about in [ZFS Performance Test scenario](https://github
 - Something wrong :broken_heart:
 - Higly recommended :cupid:
 
-## Official Resources
+## 📘 Official Resources
 - [Official website](https://openzfs.org/)
 - [OpenZFS Releases](https://zfsonlinux.org/)
 - [OpenZFS GitHub](https://github.com/openzfs/zfs)
 - [Getting Started](https://openzfs.github.io/openzfs-docs/Getting%20Started/index.html)
-### RAIDZ official doc
+### 🧭 RAIDZ official doc
 RAIDZ is a variation on RAID-5 that allows for better distribution of parity and eliminates the RAID-5 “write hole”. Data and parity is striped across all disks within a raidz group. RAIDZ is effective for large block sizes and sequential workloads.
 - [RAIDZ documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/RAIDZ.html)
-### dRAID official doc
+### 🧭 dRAID official doc
 dRAID is a variant of [RAIDZ](#raidz) that provides integrated distributed hot spares which allows for faster resilvering while retaining the benefits of raidz.
 - [dRAID documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html#introduction)
-### RAID with ZFS
+### 🧭 RAID with ZFS
 Open ZFS focused on [RAIDZ](#raidz-official-doc) and [dRAID](#draid-official-doc).
 Meanwhile it also support other RAID types like Stripe and Mirror.
 - [Simple ZFS Pools](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md#creating-simple-zfs-pools)
 
-## Tutorials
-### Beginner Guides
+## 📚 Tutorials
+### 🛣️ Beginner Guides
 - :cupid: [ZFS 101](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
 - [OpenZFS Topology FAQ: What’s a zpool? What’s a vdev?](https://discourse.practicalzfs.com/t/openzfs-topology-faq-whats-a-zpool-whats-a-vdev/17)
 - [ZFS Guide for starters and advanced users](https://forum.level1techs.com/t/zfs-guide-for-starters-and-advanced-users-concepts-pool-config-tuning-troubleshooting/196035)
@@ -97,7 +98,9 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
 - [ZFS walkthrough](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/)
 - [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
-### Snapshots, Backups and Replication
+- [Aaron’s ZFS Guide: Zpool Best Practices and Caveats](https://tadeubento.com/2024/aarons-zfs-guide-zpool-best-practices-and-caveats)
+- [OpenZFS - the final word in file systems](https://jro.io/truenas/openzfs/)
+### 🔁 Snapshots, Backups and Replication
 - [Secure External Backup with ZFS Native Encryptionp](https://pipo.blog/articles/20210803-secure-zfs-encrypted-extbackup)
 - [Sending and Receiving ZFS Data](https://docs.oracle.com/cd/E18752_01/html/819-5461/gbchx.html)
 - [How to use snapshots, clones and replication in ZFS on Linux](https://www.howtoforge.com/tutorial/how-to-use-snapshots-clones-and-replication-in-zfs-on-linux/)
@@ -129,8 +132,9 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ### ZFS dRAID
 - [Let’s talk about its brand-new dRAID vdevs](https://arstechnica.com/gadgets/2021/07/a-deep-dive-into-openzfs-2-1s-new-distributed-raid-topology/)
 
-## ZFS tools
+## 🛠️ ZFS tools
 ### ZFS Calculators
+- [OpenZFS Capacity Calculator](https://jro.io/capacity/)
 - [ZFS raidz calculator](https://zfs-calculator.com/)
 - [ZFS Capacity Calculator](https://www.truenas.com/docs/references/zfscapacitycalculator/)
 - [ZFS / RAIDZ Capacity Calculator (beta)](https://wintelguy.com/zfs-calc.pl)
@@ -233,12 +237,12 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS snapshotter plugin for containerd](https://github.com/containerd/zfs)
 
 ## Other Awesome ZFS
-- :cupid: [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
+- [ZFS Filesystem Awesome Collection from kazaimazai](https://kazaimazai.com/zfs-caveats-and-references/)
 - [mamh-mixed/awesome-zfs](https://github.com/mamh-mixed/awesome-zfs)
 
-## ZFS troubleshooting
+## 🧰 ZFS troubleshooting
 - [ZFS/ ZoL quick fixes](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/README.md)
-- [PracticalZFS - Great collection of ZFS use cases](https://discourse.practicalzfs.com/
+- :cupid: [PracticalZFS - Great collection of ZFS use cases](https://discourse.practicalzfs.com/)
 
 ## ZFS vs. other Filesystems
 ### Btrfs
@@ -250,8 +254,13 @@ Lustre
 MinIO -->
 
 
-<!-- ## Books -->
-
+## Books and Presentations
+- :cupid: [iXsystems - ZFS Vdev Reliability](https://github.com/ankek/awesome-zfs/blob/main/pdf/ZFS_Vdev_Reliability.pdf) 
+- :cupid: [iXsystems - ZFS Adaptive Replacement Cache](https://github.com/ankek/awesome-zfs/blob/main/pdf/ZFS_Adaptive_Replacement_Cache.pdf) 
+- :cupid: [iXsystems - ZFS Copy-on-Write](https://github.com/ankek/awesome-zfs/blob/main/pdf/ZFS_Copy_on_Write.pdf) 
+- :cupid: [iXsystems - ZFS Snapshots](https://github.com/ankek/awesome-zfs/blob/main/pdf/ZFS_Snapshots.pdf) 
+- :cupid: [iXsystems - ZFS ZIL and SLOG](https://github.com/ankek/awesome-zfs/blob/main/pdf/ZFS_ZIL_and_SLOG.pdf)
+- [OpenZFS dRAID Presentation](https://github.com/ankek/awesome-zfs/blob/main/pdf/OpenZFS_dRAID_Presentation.pdf)
 ## Videos
 - [Cockpit+ZFS Manager plugin](https://www.youtube.com/watch?v=1HEO7qXa6jo&t=745s)
 - [Top Tools to Recover Data from ZFS Drives. How to Recover Data from ZFS File System](https://www.youtube.com/watch?v=Tk-Y9C8wBtg)

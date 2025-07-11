@@ -165,6 +165,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 
 ### ZFS Backup tools
 - [bzfs - Backup command line tool](https://github.com/whoschek/bzfs)
+- [httm - Interactive, file-level Time Machine-like tool for ZFS](https://github.com/kimono-koans/httm)
 - [pyznapv - ZFS snapshot tool](https://github.com/yboetz/pyznap)
 - [sanoid - Policy-driven snapshot management and replication tool](https://github.com/jimsalterjrs/sanoid)
 - [zap - Management of zfs snapshots](https://github.com/Jehops/zap)
@@ -202,6 +203,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - :cupid: [ZFS statistics tool](https://github.com/mmatuska/zfs-stats)
 - [Script to load ZFS encryption keys](https://github.com/Rau-N/zfs-key-loader)
 - [zfs-health-check](https://github.com/norsemangrey/zfs-health-check)
+- [shavee - Program to automatically decrypt and mount ZFS datasets using Yubikey HMAC as 2FA or any File on USB/SFTP/HTTPS drive](https://github.com/ashuio/shavee)
 
 ## ZFS Cheat Sheets
 - [ZFS Cheat Sheet #1](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
@@ -220,6 +222,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [OpenZFS on OS X ](https://github.com/openzfsonosx/zfs)
 - :skull: [An extensive ZFS setup on MacOS](https://justinscholz.de/2018/06/15/an-extensive-zfs-setup-on-macos)
 - :skull: [ZFS on macOS instructions and scripts](https://github.com/spl/zfs-on-mac)
+- [ZFS OSX Menu Bar widget](https://github.com/cbreak-black/ZetaWatch)
 
 ## ZFS on Raspberry Pi
 - [Arm NAS](https://github.com/geerlingguy/arm-nas#secondary-nas---raspberry-pi-5-with-sata-hat)
@@ -247,6 +250,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ## ZFS vs. other Filesystems
 ### Btrfs
 - [Btrfs vs ZFS: The future of file systems](https://atix.de/en/blog/btrfs-vs-zfs-the-future-of-file-systems/)
+- [How Is ZFS Different From XFS](https://www.baeldung.com/linux/zfs-vs-xfs)
 <!-- GlusterFS
 Ceph
 HDFS

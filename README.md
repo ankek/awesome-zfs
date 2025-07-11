@@ -60,7 +60,9 @@ Please find more details about in [ZFS Performance Test scenario](https://github
   - [Other Awesome ZFS](#other-awesome-zfs)
   - [🧰 ZFS troubleshooting](#-zfs-troubleshooting)
   - [ZFS vs. other Filesystems](#zfs-vs-other-filesystems)
+    - [Simple comparison table](#simple-comparison-table)
     - [Btrfs](#btrfs)
+    - [XFS](#xfs)
   - [Books and Presentations](#books-and-presentations)
   - [Videos](#videos)
   - [Contribution](#contribution)
@@ -248,8 +250,11 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - :cupid: [PracticalZFS - Great collection of ZFS use cases](https://discourse.practicalzfs.com/)
 
 ## ZFS vs. other Filesystems
+### Simple comparison table
+- [Comparison table for ZFS, Btrfs, XFS, Ext4, and NTFS - Please use carefully, data require validation.](https://github.com/ankek/awesome-zfs/blob/main/comparison_table.md)
 ### Btrfs
 - [Btrfs vs ZFS: The future of file systems](https://atix.de/en/blog/btrfs-vs-zfs-the-future-of-file-systems/)
+### XFS
 - [How Is ZFS Different From XFS](https://www.baeldung.com/linux/zfs-vs-xfs)
 <!-- GlusterFS
 Ceph
@@ -272,9 +277,9 @@ MinIO -->
 - [Explaining ZFS LOG and L2ARC Cache: Do You Need One and How Do They Work?](https://www.youtube.com/watch?app=desktop&v=M4DLChRXJog)
 - [Tuesday Tech Tip - ZFS Best Practices](https://www.youtube.com/watch?app=desktop&v=oWneomAYpZY)
 <!-- - [TrueNAS Tutorial: Expanding Your ZFS RAIDz VDEV with a Single Drive](https://www.youtube.com/watch?app=desktop&v=uPCrDmjWV_I) -->
-- [ZFS Basics - Pools and VDEVs - Testing, Configuration, and Expansion](https://www.youtube.com/watch?app=desktop&v=IN_bTYYSXvU)
-- [ZFS Boot Menu - I put that stuff on everything](https://www.youtube.com/watch?app=desktop&v=FRo65qnK_70)
-- [ZFS 101: Leveraging Datasets and Zvols for Better Data Management](https://www.youtube.com/watch?app=desktop&v=0d4_nvdZdOc)
+- [ZFS Basics - Pools and VDEVs - Testing, Configuration, and Expansion](https://www.youtube.com/watch?v=IN_bTYYSXvU)
+- [ZFS Boot Menu - I put that stuff on everything](https://www.youtube.com/watch?v=FRo65qnK_70)
+- [ZFS 101: Leveraging Datasets and Zvols for Better Data Management](https://www.youtube.com/watch?v=0d4_nvdZdOc)
 - [OpenZFS novel algorithms: snapshots, space allocation, RAID-Z - Matt Ahrens](https://www.youtube.com/watch?v=uJGkyMxdNFE)
 - [Lecture on OpenZFS read and write code paths - Matt Ahrens](https://www.youtube.com/watch?v=ptY6-K78McY)
 - [OpenZFS Basics by Matt Ahrens and George Wilson](https://www.youtube.com/watch?v=MsY-BafQgj4)

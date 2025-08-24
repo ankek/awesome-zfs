@@ -2,6 +2,7 @@
 
 > OpenZFS is an open-source implementation of the ZFS file system and volume manager initially developed by Sun Microsystems for the Solaris operating system, and is now maintained by the OpenZFS Project. Similar to the original ZFS, the implementation supports features like data compression, data deduplication, copy-on-write clones, snapshots, RAID-Z, and virtual devices that can create filesystems that span multiple disks. 
 > One of the main capabilities of OpenZFS is self-healing. The file system can detect and correct errors while in use, without the need for a dedicated file system checker. This feature makes it suitable for mission-critical applications that require high availability. 
+> Also ZFS can support files with size up to 18.44 EB (or 18,440,000 Terrabytes) and data volumes with size up to 256 trillion yobibytes( or 340,282,366,920,938,463,463,374,607 Terrabytes).
 
 ## About
 ![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
@@ -61,6 +62,7 @@ Please find more details about in [ZFS Performance Test scenario](https://github
   - [🧰 ZFS troubleshooting](#-zfs-troubleshooting)
   - [ZFS vs. other Filesystems](#zfs-vs-other-filesystems)
     - [Simple comparison table](#simple-comparison-table)
+    - [Complex comparison table](#complex-comparison-table)
     - [Btrfs](#btrfs)
     - [XFS](#xfs)
   - [Books and Presentations](#books-and-presentations)
@@ -106,7 +108,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [Secure External Backup with ZFS Native Encryptionp](https://pipo.blog/articles/20210803-secure-zfs-encrypted-extbackup)
 - [Sending and Receiving ZFS Data](https://docs.oracle.com/cd/E18752_01/html/819-5461/gbchx.html)
 - [How to use snapshots, clones and replication in ZFS on Linux](https://www.howtoforge.com/tutorial/how-to-use-snapshots-clones-and-replication-in-zfs-on-linux/)
-- [ZFS Snapshot Tools](https://klarasystems.com/articles/zfs-orchestration-part-1-zfs-snapshots-tools/)
+- :cupid: [ZFS Snapshot Tools](https://klarasystems.com/articles/zfs-orchestration-part-1-zfs-snapshots-tools/)
 - [Efficient ZFS Replication with Snapshots](https://klarasystems.com/articles/zfs-orchestration-tools-part-2-replication/)
 - [Backup storage for thousands of virtual machines using free tools](https://blog.aenix.io/backup-storage-for-thousands-of-virtual-machines-using-free-tools-b3909004bef2)
 ### ZFS performance tuning and benchmarks
@@ -187,6 +189,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [zfs-replicate - Shell script to manage ZFS snapshot replication locally, or between hosts. ](https://github.com/aaronhurt/zfs-replicate)
 - [zfs-snapshot-mgmt - Script for automating ZFS snapshot creation for FreeBSD](http://marcin.studio4plus.com/en/zfs-file-history/howto.html)
 - [zfstools](https://github.com/bdrewery/zfstools)
+- [zfs-tool - Tool to help with various zfs tasks, e.g. cleanup snapshots ](https://github.com/sandreas/zfs-tool)
 - [zfs-tools - ZFS backup tools](https://github.com/Rudd-O/zfs-tools)
 - [znapzend - High performance open source ZFS backup with mbuffer and ssh support](https://www.znapzend.org/)
 - [zrep - ZFS replication and failover](http://www.bolthole.com/solaris/zrep/)
@@ -252,6 +255,9 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 ## ZFS vs. other Filesystems
 ### Simple comparison table
 - [Comparison table for ZFS, Btrfs, XFS, Ext4, and NTFS - Please use carefully, data require validation.](https://github.com/ankek/awesome-zfs/blob/main/comparison_table.md)
+### Complex comparison table
+- [Comparison table for Btrfs, Ext4, Lustre, NTFS, ReFS, ReiserFS, Reiser4, XFS, ZFS](https://github.com/ankek/awesome-zfs/blob/main/comparison_table_2.md)
+
 ### Btrfs
 - [Btrfs vs ZFS: The future of file systems](https://atix.de/en/blog/btrfs-vs-zfs-the-future-of-file-systems/)
 ### XFS

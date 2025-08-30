@@ -218,6 +218,9 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - :cupid: [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
 - [ZFS RAIDZ Expansion Is Awesome but Has a Small Caveat](https://louwrentius.com/zfs-raidz-expansion-is-awesome-but-has-a-small-caveat.html)
 
+## ZFS on Root (Linux)
+- [ZFS‑first Arch Linux installer](https://github.com/okhsunrog/archinstall_zfs?tab=readme-ov-file)
+
 ## ZFS on Windows
 - [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)
 - [Open ZFS on Windows](https://github.com/openzfsonwindows/openzfs)

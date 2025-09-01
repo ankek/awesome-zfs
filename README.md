@@ -81,15 +81,14 @@ Please find more details about in [ZFS Performance Test scenario](https://github
 - [OpenZFS GitHub](https://github.com/openzfs/zfs)
 - [Getting Started](https://openzfs.github.io/openzfs-docs/Getting%20Started/index.html)
 ### 🧭 RAIDZ official doc
-RAIDZ is a variation on RAID-5 that allows for better distribution of parity and eliminates the RAID-5 “write hole”. Data and parity is striped across all disks within a raidz group. RAIDZ is effective for large block sizes and sequential workloads.
-- [RAIDZ documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/RAIDZ.html)
+[RAIDZ documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/RAIDZ.html) is a variation on RAID-5 that allows for better distribution of parity and eliminates the RAID-5 “write hole”. Data and parity is striped across all disks within a raidz group. RAIDZ is effective for large block sizes and sequential workloads.
+
 ### 🧭 dRAID official doc
-dRAID is a variant of [RAIDZ](#raidz) that provides integrated distributed hot spares which allows for faster resilvering while retaining the benefits of raidz.
-- [dRAID documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html#introduction)
+[dRAID documentation](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html#introduction) is a variant of [RAIDZ](#raidz) that provides integrated distributed hot spares which allows for faster resilvering while retaining the benefits of raidz.
+
 ### 🧭 RAID with ZFS
-Open ZFS focused on [RAIDZ](#raidz-official-doc) and [dRAID](#draid-official-doc).
-Meanwhile it also support other RAID types like Stripe and Mirror.
-- [Simple ZFS Pools](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md#creating-simple-zfs-pools)
+Open ZFS focused on RAID5-like [RAIDZ](#raidz-official-doc) and [dRAID](#draid-official-doc).
+Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md#creating-simple-zfs-pools) like [RAID0](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_0) and [RAID1](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1).
 
 ## 📚 Tutorials
 ### 🛣️ Beginner Guides

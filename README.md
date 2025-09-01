@@ -1,36 +1,35 @@
 # Awesome OpenZFS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> OpenZFS is an open-source implementation of the ZFS file system and volume manager initially developed by Sun Microsystems for the Solaris operating system, and is now maintained by the OpenZFS Project. Similar to the original ZFS, the implementation supports features like data compression, data deduplication, copy-on-write clones, snapshots, RAID-Z, and virtual devices that can create filesystems that span multiple disks. 
+> OpenZFS is a high-performance, open-source file system and volume manager designed for data integrity, scalability, and advanced storage features. Built originally by Sun Microsystems, OpenZFS is now the industry-standard solution for data protection, deduplication, compression, and RAID configurations. This curated list of OpenZFS tutorials, tools, cheat sheets, benchmarks, and community resources is ideal for Linux sysadmins, developers, homelab enthusiasts, and enterprise storage engineers.
+> OpenZFS is an open-source implementation of the ZFS file system and volume manager initially developed by Sun Microsystems for the Solaris operating system, and is now maintained by the OpenZFS Project. Similar to the original ZFS, the implementation supports features like data compression, data deduplication, copy-on-write clones, snapshots, RAID-Z, and virtual devices that can create filesystems that span multiple disks.
 > One of the main capabilities of OpenZFS is self-healing. The file system can detect and correct errors while in use, without the need for a dedicated file system checker. This feature makes it suitable for mission-critical applications that require high availability. 
 > Also ZFS can support files with size up to 18.44 EB (or 18,440,000 Terrabytes) and data volumes with size up to 256 trillion yobibytes( or 340,282,366,920,938,463,463,374,607 Terrabytes).
 
 ## About
-![Alt text](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
-> A curated list of resources on [OpenZFS](https://openzfs.github.io/openzfs-docs/).
+![OpenZFS Logo](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
+
+> A curated list of high-quality resources for learning, managing, and optimizing [OpenZFS](https://openzfs.github.io/openzfs-docs/).
   
 From :estonia: with :heart:.
 ## Support us
-
+We're community-driven and appreciate your support! Help us build and maintain OpenZFS test hardware by:
 This project has no sponsors but we accepting donations to purchase hardware for OpenZFS [test rig](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share).  
 
-You can support us these ways:
-* :heart: Share the link to this [repo](https://github.com/ankek/awesome-zfs). 
-* :star: Give us a GitHub star. 
-* :trophy: [Buying us a coffee](https://coff.ee/zfstestrig)  
+You can support us by:
+- ⭐ Starring this [GitHub repository](https://github.com/ankek/awesome-zfs)
+- 🔗 Sharing it with your network
+- ☕ [Buying us a coffee](https://coff.ee/zfstestrig)
+- 🛒 Donating hardware via our [Amazon Wishlist](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share)
+- 🤝 [Contribution](https://github.com/ankek/awesome-zfs/blob/main/contributing.md) in this repo
 
-We would like to compare performance with same set of [hardware components](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share) and all the money from "Buy Me a Coffee" will be spent on hardware:
-  - for RAIDZ (RAIDZ1 vs. RAIDZ2 vs. RAIDZ3)
-  - for dRAID (dRAID1 vs. dRAID2 vs. dRAID3)
-  - for other RAIDs, supported by OpenZFS like RAID0 vs. RAID1 vs. RAID10
-  - with other FS (OpenZFS vs. Btrfs vs. GlusterFS vs. Ceph vs. HDFS vs. Lustre vs. MinIO)  
-
+We would like to compare performance with same set of [hardware components](https://www.amazon.de/hz/wishlist/ls/ZF2AIF60C7X3?ref_=wl_share) and all the money from "Buy Me a Coffee" will be spent on hardware.
 Please find more details about in [ZFS Performance Test scenario](https://github.com/ankek/awesome-zfs/blob/main/zfs-performance-test-scenario.md)
 
-## Contents
+## 📚 Table of Contents
 - [Awesome OpenZFS ](#awesome-openzfs-)
   - [About](#about)
   - [Support us](#support-us)
-  - [Contents](#contents)
+  - [📚 Table of Contents](#-table-of-contents)
   - [Legend](#legend)
   - [📘 Official Resources](#-official-resources)
     - [🧭 RAIDZ official doc](#-raidz-official-doc)
@@ -53,11 +52,11 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [ZFS other tools](#zfs-other-tools)
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
   - [Root on ZFS (Linux)](#root-on-zfs-linux)
-  - [ZFS on Windows](#zfs-on-windows)
-  - [ZFS on Mac](#zfs-on-mac)
-  - [ZFS on Raspberry Pi](#zfs-on-raspberry-pi)
-  - [ZFS on Kubernetes](#zfs-on-kubernetes)
-  - [ZFS on Docker](#zfs-on-docker)
+  - [How to Use OpenZFS on Windows (ZFS on Windows)](#how-to-use-openzfs-on-windows-zfs-on-windows)
+  - [How to Use OpenZFS on macOS (ZFS on Mac)](#how-to-use-openzfs-on-macos-zfs-on-mac)
+  - [How to Use OpenZFS on Raspberry Pi (ZFS on Raspberry Pi)](#how-to-use-openzfs-on-raspberry-pi-zfs-on-raspberry-pi)
+  - [How to Use OpenZFS with Kubernetes for Persistent Storage (ZFS on K8S)](#how-to-use-openzfs-with-kubernetes-for-persistent-storage-zfs-on-k8s)
+  - [How to Use OpenZFS with Docker for Persistent Storage (ZFS on Docker)](#how-to-use-openzfs-with-docker-for-persistent-storage-zfs-on-docker)
   - [Other Awesome ZFS](#other-awesome-zfs)
   - [🧰 ZFS troubleshooting](#-zfs-troubleshooting)
   - [ZFS vs. other Filesystems](#zfs-vs-other-filesystems)
@@ -67,7 +66,6 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [XFS](#xfs)
   - [Books and Presentations](#books-and-presentations)
   - [Videos](#videos)
-  - [Contribution](#contribution)
   - [License](#license)
 
 ## Legend
@@ -225,29 +223,29 @@ Linux kernel have no official ZFS support. This is workaround.
 - [Debian Bookworm Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/Debian%20Bookworm%20Root%20on%20ZFS.html)
 - [Rocky Linux Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/Root%20on%20ZFS.html)
 
-## ZFS on Windows
+## How to Use OpenZFS on Windows (ZFS on Windows)
 - [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)
 - [Open ZFS on Windows](https://github.com/openzfsonwindows/openzfs)
 - [ZFS on WSL](https://github.com/alexhaydock/zfs-on-wsl)
 
-## ZFS on Mac
+## How to Use OpenZFS on macOS (ZFS on Mac)
 - [OpenZFS on OS X ](https://github.com/openzfsonosx/zfs)
 - :skull: [An extensive ZFS setup on MacOS](https://justinscholz.de/2018/06/15/an-extensive-zfs-setup-on-macos)
 - :skull: [ZFS on macOS instructions and scripts](https://github.com/spl/zfs-on-mac)
 - [ZFS OSX Menu Bar widget](https://github.com/cbreak-black/ZetaWatch)
 
-## ZFS on Raspberry Pi
+## How to Use OpenZFS on Raspberry Pi (ZFS on Raspberry Pi)
 - [Arm NAS](https://github.com/geerlingguy/arm-nas#secondary-nas---raspberry-pi-5-with-sata-hat)
 - :skull: [Raspberry Pi with a ZFS root filesystem (Ubuntu/Manjaro ARM)](https://github.com/jrcichra/rpi-zfs-root)
 
-## ZFS on Kubernetes
+## How to Use OpenZFS with Kubernetes for Persistent Storage (ZFS on K8S)
 - [ZFS backed persistent volumes on Kubernetes](https://github.com/openebs/zfs-localpv)
 - [Sync ZFS backups to an offsite location natively in Kubernetes](https://github.com/JohnStarich/zfs-sync-operator)
 - :skull: [Kubernetes operator to manage ZFS Datasets](https://github.com/yuanying/zfs-operator)
 - [ZFS Feature Discovery for Kubernetes](https://github.com/danielkza/zfs-feature-discovery)
 - [Dynamic ZFS persistent volume provisioner for Kubernetes](https://github.com/ccremer/kubernetes-zfs-provisioner)
 
-## ZFS on Docker
+## How to Use OpenZFS with Docker for Persistent Storage (ZFS on Docker)
 - [Docker volume plugin for creating persistent volumes as a dedicated zfs dataset](https://github.com/TrilliumIT/docker-zfs-plugin)
 - [ZFS snapshotter plugin for containerd](https://github.com/containerd/zfs)
 
@@ -302,10 +300,14 @@ MinIO -->
 - [Best Practice Architecture for Open-Source Storage using ZFS](https://www.youtube.com/watch?v=Dd-Ejtmgj-A)
 - [OpenZFS at scale: learning, challenges, and awesome customers by Sam Atkinson](https://www.youtube.com/watch?v=6Jt9LQcobXM)
 
-## Contribution
-Your [contributions](https://github.com/ankek/awesome-zfs/blob/main/contributing.md) are welcome!
+
  
 ## License
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).
 
 ![Estonian flag](https://flagcdn.com/w160/ee.png)
+
+<!-- 
+Meta Description: Discover the best OpenZFS tutorials, tools, performance benchmarks, backup scripts, and comparison guides. Ideal for Linux admins and homelab users. 
+-->
+[//]: # (Tags: #documentation #awesome #zfs #zfsonlinux #openzfs #awesome-zfs)

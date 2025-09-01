@@ -40,7 +40,6 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [🛣️ Beginner Guides](#️-beginner-guides)
     - [🔁 Snapshots, Backups and Replication](#-snapshots-backups-and-replication)
     - [ZFS performance tuning and benchmarks](#zfs-performance-tuning-and-benchmarks)
-    - [ZFS on root partition](#zfs-on-root-partition)
     - [ZFS Data Protection](#zfs-data-protection)
     - [ZFS Encryption](#zfs-encryption)
     - [ZFS RAID and RAIDZ](#zfs-raid-and-raidz)
@@ -53,6 +52,7 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [ZFS Backup tools](#zfs-backup-tools)
     - [ZFS other tools](#zfs-other-tools)
   - [ZFS Cheat Sheets](#zfs-cheat-sheets)
+  - [Root on ZFS (Linux)](#root-on-zfs-linux)
   - [ZFS on Windows](#zfs-on-windows)
   - [ZFS on Mac](#zfs-on-mac)
   - [ZFS on Raspberry Pi](#zfs-on-raspberry-pi)
@@ -118,8 +118,7 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - [ZFS performance results](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)
 - [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
 - [ZFS RAID vs. Linux mdraid](https://arstechnica.com/gadgets/2020/05/return-to-raid-the-ars-readers-what-if-edition/)
-### ZFS on root partition
-- [ZFS Bootloader for root-on-ZFS systems](https://github.com/zbm-dev/zfsbootmenu)
+
 ### ZFS Data Protection
 - [How OpenZFS Provides Data Integrity Where Other File Systems Don’t](https://www.truenas.com/blog/data-integrity-openzfs/)
 ### ZFS Encryption
@@ -218,8 +217,13 @@ Meanwhile it also support other RAID types like Stripe and Mirror.
 - :cupid: [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
 - [ZFS RAIDZ Expansion Is Awesome but Has a Small Caveat](https://louwrentius.com/zfs-raidz-expansion-is-awesome-but-has-a-small-caveat.html)
 
-## ZFS on Root (Linux)
+## Root on ZFS (Linux)
+Linux kernel have no official ZFS support. This is workaround.
+- [ZFS Bootloader for root-on-ZFS systems](https://github.com/zbm-dev/zfsbootmenu)
 - [ZFS‑first Arch Linux installer](https://github.com/okhsunrog/archinstall_zfs?tab=readme-ov-file)
+- [Arch Linux Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Arch%20Linux/Root%20on%20ZFS.html)
+- [Debian Bookworm Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/Debian%20Bookworm%20Root%20on%20ZFS.html)
+- [Rocky Linux Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/Root%20on%20ZFS.html)
 
 ## ZFS on Windows
 - [Accessing ZFS Disks on Windows](https://hetmanrecovery.com/recovery_news/how-to-open-a-zfs-file-system-disk-in-windows.htm)

@@ -1,16 +1,28 @@
 # Awesome OpenZFS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> OpenZFS is a high-performance, open-source file system and volume manager designed for data integrity, scalability, and advanced storage features. Built originally by Sun Microsystems, OpenZFS is now the industry-standard solution for data protection, deduplication, compression, and RAID configurations. This curated list of OpenZFS tutorials, tools, cheat sheets, benchmarks, and community resources is ideal for Linux sysadmins, developers, homelab enthusiasts, and enterprise storage engineers.
-> OpenZFS is an open-source implementation of the ZFS file system and volume manager initially developed by Sun Microsystems for the Solaris operating system, and is now maintained by the OpenZFS Project. Similar to the original ZFS, the implementation supports features like data compression, data deduplication, copy-on-write clones, snapshots, RAID-Z, and virtual devices that can create filesystems that span multiple disks.
-> One of the main capabilities of OpenZFS is self-healing. The file system can detect and correct errors while in use, without the need for a dedicated file system checker. This feature makes it suitable for mission-critical applications that require high availability.
-> Also ZFS can support files with size up to 18.44 EB (or 18,440,000 Terrabytes) and data volumes with size up to 256 trillion yobibytes( or 340,282,366,920,938,463,463,374,607 Terrabytes).
+> **OpenZFS** is a high-performance, open-source file system and volume manager engineered for exceptional **data integrity**, **scalability**, and **advanced storage features**. Originally developed by **Sun Microsystems** for the Solaris OS, it is now maintained by the **OpenZFS Project** and serves as the industry standard for modern data storage.
+
+---
+
+## Key Features of OpenZFS
+
+- **Self-Healing Data:** Automatically detects and corrects data corruption in real-time—no manual fsck required.
+- **Data Compression & Deduplication:** Save space and improve performance with built-in compression algorithms and intelligent data deduplication.
+- **Copy-on-Write & Snapshots:** Create efficient, instant snapshots and clones without data duplication.
+- **RAID-Z & Pooling:** Replace traditional RAID with more robust, flexible volume management using virtual devices.
+- **Cross-Platform Support:** Runs on FreeBSD, Linux, macOS, and other UNIX-like systems.
+- **Max File Size:** Up to **18.44 exabytes** (that’s 18.4 million TB!)
+- **Max Volume Size:** Up to **256 trillion yobibytes** (~340 undecillion TB)
+- **From Homelab to Datacenters:** Whether you're backing up a Homelab or running a Datacenter, OpenZFS is built to handle it—reliably and efficiently.
+
+---
 
 ## About
 
 ![OpenZFS Logo](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 
-> A curated list of high-quality resources for learning, managing, and optimizing [OpenZFS](https://openzfs.github.io/openzfs-docs/).
-  
+> A curated list of high-quality resources includes the best tutorials, tools, cheat sheets, benchmarks, and community resources for OpenZFS—ideal for **Linux sysadmins**, **homelab enthusiasts**, **developers**, and **enterprise storage architects**. Also good for learning, managing, and optimizing [OpenZFS](https://openzfs.github.io/openzfs-docs/).
+
 From :estonia: with :heart:.
 
 ## Support us
@@ -32,6 +44,7 @@ Please find more details about in [ZFS Performance Test scenario](https://github
 ## 📚 Table of Contents
 
 - [Awesome OpenZFS ](#awesome-openzfs-)
+  - [Key Features of OpenZFS](#key-features-of-openzfs)
   - [About](#about)
   - [Support us](#support-us)
   - [📚 Table of Contents](#-table-of-contents)

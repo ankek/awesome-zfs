@@ -373,7 +373,7 @@ MinIO -->
 - [OpenZFS at scale: learning, challenges, and awesome customers by Sam Atkinson](https://www.youtube.com/watch?v=6Jt9LQcobXM)
 
 ## Test scenarios
-- [Preparations](test-scenarios/1_preparations.sh)
+- [Preparations](https://github.com/ankek/awesome-zfs/blob/main/test-scenarios/1_preparations.sh)
 ## License
 
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).

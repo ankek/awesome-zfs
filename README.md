@@ -84,6 +84,7 @@ Please find more details about in [ZFS Performance Test scenario](https://github
     - [XFS](#xfs)
   - [Books and Presentations](#books-and-presentations)
   - [Videos](#videos)
+  - [Test scenarios](#test-scenarios)
   - [License](#license)
 
 ## Legend
@@ -298,10 +299,12 @@ Linux kernel have no official ZFS support. This is workaround.
 
 - [ZFS backed persistent volumes on Kubernetes](https://github.com/openebs/zfs-localpv)
 - [Sync ZFS backups to an offsite location natively in Kubernetes](https://github.com/JohnStarich/zfs-sync-operator)
-- :skull: [Kubernetes operator to manage ZFS Datasets](https://github.com/yuanying/zfs-operator)
+- [Automated K8S controller that removes orphaned ZFSVolume CRDs in OpenEBS ZFS environments](https://github.com/BlackDark/openebs-zfs-cleanup-controller)
+
 - [ZFS Feature Discovery for Kubernetes](https://github.com/danielkza/zfs-feature-discovery)
 - [Dynamic ZFS persistent volume provisioner for Kubernetes](https://github.com/ccremer/kubernetes-zfs-provisioner)
-
+- :skull: [Kubernetes operator to manage ZFS Datasets](https://github.com/yuanying/zfs-operator)
+  
 ## How to Use OpenZFS with Docker for Persistent Storage (ZFS on Docker)
 
 - [Docker volume plugin for creating persistent volumes as a dedicated zfs dataset](https://github.com/TrilliumIT/docker-zfs-plugin)
@@ -369,6 +372,8 @@ MinIO -->
 - [Best Practice Architecture for Open-Source Storage using ZFS](https://www.youtube.com/watch?v=Dd-Ejtmgj-A)
 - [OpenZFS at scale: learning, challenges, and awesome customers by Sam Atkinson](https://www.youtube.com/watch?v=6Jt9LQcobXM)
 
+## Test scenarios
+- [Preparations](test-scenarios/1_preparations.sh)
 ## License
 
 This code is released under the GNU General Public License v3.0. See [LICENSE](LICENSE).

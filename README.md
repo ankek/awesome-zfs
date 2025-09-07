@@ -264,10 +264,17 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 Linux kernel have no official ZFS support. This is workaround.
 
 - [ZFS Bootloader for root-on-ZFS systems](https://github.com/zbm-dev/zfsbootmenu)
-- [ZFS‑first Arch Linux installer](https://github.com/okhsunrog/archinstall_zfs?tab=readme-ov-file)
-- [Arch Linux Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Arch%20Linux/Root%20on%20ZFS.html)
-- [Debian Bookworm Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/Debian%20Bookworm%20Root%20on%20ZFS.html)
+- [Alpine installer with ZFS as root](https://github.com/psy0rz/alpinebox/blob/master/README.md)
+- [Arch Linux - ZFS‑first installer](https://github.com/okhsunrog/archinstall_zfs/blob/main/README.md)
+- [Arch Linux - Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Arch%20Linux/Root%20on%20ZFS.html)
+- [Debian Bookworm - Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/Debian%20Bookworm%20Root%20on%20ZFS.html)
+- [Fedora Linux - Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Fedora/Root%20on%20ZFS.html)
+- [Gentoo Linux - Root on ZFS](https://wiki.gentoo.org/wiki/ZFS#ZFS_root)
+- [NixOS Linux - Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/NixOS/index.html#root-on-zfs)
+- [openSUSE Linux - Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/openSUSE/openSUSE%20Leap%20Root%20on%20ZFS.html)
 - [Rocky Linux Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/Root%20on%20ZFS.html)
+- [Slackware Linux Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Slackware/Root%20on%20ZFS.html)
+- [Ubuntu Linux Root on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Ubuntu/Ubuntu%2022.04%20Root%20on%20ZFS.html)
 
 ## How to Use OpenZFS on Windows (ZFS on Windows)
 

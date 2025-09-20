@@ -190,6 +190,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 
 - :skull: [Zyggy - Simple GUI for ZFS administration](https://github.com/manoeldesouza/zyggy)
 - :moneybag: [Poolsman - Web UI for OpenZFS](https://www.poolsman.com/)
+- [Cockpit ZFS Manager](https://github.com/45Drives/cockpit-zfs-manager)
 - :skull: [ZFS Commander](https://github.com/manoeldesouza/zc)
 - :warning: [ZfDash ZFS Management GUI / WEBUI](https://github.com/ad4mts/zfdash)
 - [Terminal UI for inspecting and restoring file history on ZFS snapshots](https://github.com/markusressel/zfs-file-history)
@@ -250,6 +251,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [Script to load ZFS encryption keys](https://github.com/Rau-N/zfs-key-loader)
 - [zfs-health-check](https://github.com/norsemangrey/zfs-health-check)
 - [shavee - Program to automatically decrypt and mount ZFS datasets using Yubikey HMAC as 2FA or any File on USB/SFTP/HTTPS drive](https://github.com/ashuio/shavee)
+- [A simple script for showing progress bar for ZFS scrub operations](https://github.com/dw7cd/zfs_scrubstat)
 
 ## ZFS Cheat Sheets
 

@@ -128,6 +128,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
 - [Aaron’s ZFS Guide: Zpool Best Practices and Caveats](https://tadeubento.com/2024/aarons-zfs-guide-zpool-best-practices-and-caveats)
 - [OpenZFS - the final word in file systems](https://jro.io/truenas/openzfs/)
+- [The ZFS Subreddit (r/zfs)](https://www.reddit.com/r/zfs/)
 
 ### 🔁 Snapshots, Backups and Replication
 

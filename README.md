@@ -357,6 +357,7 @@ MinIO -->
 
 ## Videos
 
+- [OpenZFS @OpenZFStalks](https://www.youtube.com/channel/UC0IK6Y4Go2KtRueHDiQcxow/videos)
 - [Cockpit+ZFS Manager plugin](https://www.youtube.com/watch?v=1HEO7qXa6jo&t=745s)
 - [Top Tools to Recover Data from ZFS Drives. How to Recover Data from ZFS File System](https://www.youtube.com/watch?v=Tk-Y9C8wBtg)
 - [The BEST Linux filesystem encryption in 2020 ext4 vs btrfs vs zfs vs luks vs gocryptfs comparison](https://www.youtube.com/watch?v=4hE_WC4NyaQ&t=10s)

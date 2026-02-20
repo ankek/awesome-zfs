@@ -138,6 +138,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - :cupid: [ZFS Snapshot Tools](https://klarasystems.com/articles/zfs-orchestration-part-1-zfs-snapshots-tools/)
 - [Efficient ZFS Replication with Snapshots](https://klarasystems.com/articles/zfs-orchestration-tools-part-2-replication/)
 - [Backup storage for thousands of virtual machines using free tools](https://blog.aenix.io/backup-storage-for-thousands-of-virtual-machines-using-free-tools-b3909004bef2)
+- [ZFS Scenarios](https://github.com/bartmichu/zfs-scenarios)
 
 ### ZFS performance tuning and benchmarks
 

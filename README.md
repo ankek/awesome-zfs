@@ -6,14 +6,14 @@
 
 ## Key Features of OpenZFS
 
-- **Self-Healing Data:** Automatically detects and corrects data corruption in real-time—no manual fsck required.
+- **Self-Healing Data:** Automatically detects and corrects data corruption in real-time-no manual fsck required.
 - **Data Compression & Deduplication:** Save space and improve performance with built-in compression algorithms and intelligent data deduplication.
 - **Copy-on-Write & Snapshots:** Create efficient, instant snapshots and clones without data duplication.
 - **RAID-Z & Pooling:** Replace traditional RAID with more robust, flexible volume management using virtual devices.
 - **Cross-Platform Support:** Runs on FreeBSD, Linux, macOS, and other UNIX-like systems.
 - **Max File Size:** Up to **18.44 exabytes** (that’s 18.4 million TB!)
 - **Max Volume Size:** Up to **256 trillion yobibytes** (~340 undecillion TB)
-- **From Homelab to Datacenters:** Whether you're backing up a Homelab or running a Datacenter, OpenZFS is built to handle it—reliably and efficiently.
+- **From Homelab to Datacenters:** Whether you're backing up a Homelab or running a Datacenter, OpenZFS is built to handle it-reliably and efficiently.
 
 ---
 
@@ -21,7 +21,7 @@
 
 ![OpenZFS Logo](https://openzfs.github.io/openzfs-docs/_static/logo_main.png)
 
-> A curated list of high-quality resources includes the best tutorials, tools, cheat sheets, benchmarks, and community resources for OpenZFS—ideal for **Linux sysadmins**, **homelab enthusiasts**, **developers**, and **enterprise storage architects**. Also good for learning, managing, and optimizing [OpenZFS](https://openzfs.github.io/openzfs-docs/).
+> A curated list of high-quality resources includes the best tutorials, tools, cheat sheets, benchmarks, and community resources for OpenZFS-ideal for **Linux sysadmins**, **homelab enthusiasts**, **developers**, and **enterprise storage architects**. Also good for learning, managing, and optimizing [OpenZFS](https://openzfs.github.io/openzfs-docs/).
 
 From :estonia: with :heart:.
 
@@ -129,6 +129,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [Aaron’s ZFS Guide: Zpool Best Practices and Caveats](https://tadeubento.com/2024/aarons-zfs-guide-zpool-best-practices-and-caveats)
 - [OpenZFS - the final word in file systems](https://jro.io/truenas/openzfs/)
 - [The ZFS Subreddit (r/zfs)](https://www.reddit.com/r/zfs/)
+- [Klara Systems - Choosing the Right ZFS Pool Layout](https://klarasystems.com/articles/choosing-the-right-zfs-pool-layout/)
 
 ### 🔁 Snapshots, Backups and Replication
 
@@ -148,6 +149,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [ZFS performance results](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)
 - [ZFS performance considerations](https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations)
 - [ZFS RAID vs. Linux mdraid](https://arstechnica.com/gadgets/2020/05/return-to-raid-the-ars-readers-what-if-edition/)
+- [ Jim Salter - ZFS 201: Advanced Cheat Sheet & Tuning](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
 
 ### ZFS Data Protection
 
@@ -183,9 +185,9 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 
 ### OpenZFS System Administration Commands
 
-- :cupid: [zdb — display ZFS storage pool debugging and consistency information](https://openzfs.github.io/openzfs-docs/man/master/8/zdb.8.html)
-- :cupid: [fsck.zfs — dummy ZFS filesystem checker](https://openzfs.github.io/openzfs-docs/man/master/8/fsck.zfs.8.html)
-- :cupid: [ZED — ZFS Event Daemon](https://openzfs.github.io/openzfs-docs/man/master/8/zed.8.html)
+- :cupid: [zdb - display ZFS storage pool debugging and consistency information](https://openzfs.github.io/openzfs-docs/man/master/8/zdb.8.html)
+- :cupid: [fsck.zfs - dummy ZFS filesystem checker](https://openzfs.github.io/openzfs-docs/man/master/8/fsck.zfs.8.html)
+- :cupid: [ZED - ZFS Event Daemon](https://openzfs.github.io/openzfs-docs/man/master/8/zed.8.html)
 - :cupid: [zfs_prepare_disk](https://openzfs.github.io/openzfs-docs/man/master/8/zfs_prepare_disk.8.html)
 
 ### ZFS GUI

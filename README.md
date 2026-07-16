@@ -218,6 +218,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [pyznapv - ZFS snapshot tool](https://github.com/yboetz/pyznap)
 - [sanoid - Policy-driven snapshot management and replication tool](https://github.com/jimsalterjrs/sanoid)
 - [zap - Management of zfs snapshots](https://github.com/Jehops/zap)
+- [Zelta - Backup and Recovery Suite](https://github.com/bell-tower/zelta)
 - [zfs_autobackup - ZFS autobackup is used to periodicly backup ZFS filesystems to other locations](https://github.com/psy0rz/zfs_autobackup)
 - [zfs-autosnapshot - Shell script that takes snapshots](https://github.com/csdvrx/zfs-autosnapshot)
 - [zfs-auto-snapshot - ZFS Automatic Snapshot Service](https://github.com/zfsonlinux/zfs-auto-snapshot)

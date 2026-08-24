@@ -125,7 +125,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [What is ZFS? Why are People Crazy About it?](https://itsfoss.com/what-is-zfs/)
 - [10 Reasons Why ZFS Rocks](https://www.enterprisestorageforum.com/hardware/10-reasons-why-zfs-rocks/)
 - [ZFS walkthrough](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/)
-- [ZFS CLI reference](https://www.zfshandbook.com/docs/references/command-reference/)
+- [ZFS CLI reference](https://web.archive.org/web/20250425190513/https://www.zfshandbook.com/docs/references/command-reference/)
 - [Aaron’s ZFS Guide: Zpool Best Practices and Caveats](https://tadeubento.com/2024/aarons-zfs-guide-zpool-best-practices-and-caveats)
 - [OpenZFS - the final word in file systems](https://jro.io/truenas/openzfs/)
 - [The ZFS Subreddit (r/zfs)](https://www.reddit.com/r/zfs/)
@@ -133,7 +133,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 
 ### 🔁 Snapshots, Backups and Replication
 
-- [Secure External Backup with ZFS Native Encryptionp](https://pipo.blog/articles/20210803-secure-zfs-encrypted-extbackup)
+- [Secure External Backup with ZFS Native Encryption](https://pipo.blog/articles/20210803-secure-zfs-encrypted-extbackup)
 - [Sending and Receiving ZFS Data](https://docs.oracle.com/cd/E18752_01/html/819-5461/gbchx.html)
 - [How to use snapshots, clones and replication in ZFS on Linux](https://www.howtoforge.com/tutorial/how-to-use-snapshots-clones-and-replication-in-zfs-on-linux/)
 - :cupid: [ZFS Snapshot Tools](https://klarasystems.com/articles/zfs-orchestration-part-1-zfs-snapshots-tools/)
@@ -158,7 +158,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 ### ZFS Encryption
 
 - [A quick-start guide to OpenZFS native encryption](https://arstechnica.com/gadgets/2021/06/a-quick-start-guide-to-openzfs-native-encryption/)
-- [ZFS handbook - Encryption](https://www.zfshandbook.com/docs/security/encryption/)
+- [ZFS handbook - Encryption](https://web.archive.org/web/20250731024734/https://www.zfshandbook.com/docs/security/encryption/)
 - [OpenZFS on OS X encryption support](https://openzfsonosx.org/wiki/Encryption)
 - [Tutorial on how to backup encrypted ZFS data on untrusted storage without the need of unlocking it.](https://mtlynch.io/zfs-encrypted-backups/)
 - [How to install LUKS encrypted Server and enable remote unlocking tutorial](https://hamy.io/post/0009/how-to-install-luks-encrypted-ubuntu-18.04.x-server-and-enable-remote-unlocking/)
@@ -261,9 +261,9 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 ## ZFS Cheat Sheets
 
 - [ZFS Cheat Sheet #1](https://github.com/ankek/awesome-zfs/blob/main/zfs-cheat-sheet.md)
-- :cupid: [ZFS Cheat Sheet #2](https://www.zfshandbook.com/docs/references/cheatsheet/)
+- :cupid: [ZFS Cheat Sheet #2](https://web.archive.org/web/20250823181325/https://www.zfshandbook.com/docs/references/cheatsheet/)
 - :cupid: [ZFS Cheat Sheet #3](https://blog.mikesulsenti.com/zfs-cheat-sheet-and-guide/)
-- [ZFS Cheatsheet + Backups tutorial](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/zfs.md)
+- [ZFS Cheat Sheet + Backups tutorial](https://github.com/zenaan/quick-fixes-ftfw/blob/master/zfs/zfs.md)
 - :cupid: [ZFS tuning cheat sheet](https://jrs-s.net/2018/08/17/zfs-tuning-cheat-sheet/)
 - [ZFS RAIDZ Expansion Is Awesome but Has a Small Caveat](https://louwrentius.com/zfs-raidz-expansion-is-awesome-but-has-a-small-caveat.html)
 

@@ -257,6 +257,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [zfs-health-check](https://github.com/norsemangrey/zfs-health-check)
 - [shavee - Program to automatically decrypt and mount ZFS datasets using Yubikey HMAC as 2FA or any File on USB/SFTP/HTTPS drive](https://github.com/ashuio/shavee)
 - [A simple script for showing progress bar for ZFS scrub operations](https://github.com/dw7cd/zfs_scrubstat)
+- [zpool-disk-waiter - A deterministic pre-boot timing barrier to gracefully prevent ZFS from importing DEGRADED pools due to slow JBOD spin-ups.](https://github.com/QiaoLei-88/zpool-disk-waiter/blob/main/ReadMe.en.md)
 
 ## ZFS Cheat Sheets
 

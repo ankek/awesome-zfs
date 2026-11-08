@@ -202,6 +202,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 
 ### ZFS Monitoring
 
+- [zfspulse](https://github.com/AlexNortonFenn/zfspulse)
 - [ZFS pool monitoring and notification daemon](https://github.com/rouben/zfswatcher)
 - [Prometheus and ZFS](https://samber.github.io/awesome-prometheus-alerts/rules#zfs)
 - [Prometheus ZFS exporter](https://github.com/pdf/zfs_exporter)
@@ -210,7 +211,7 @@ Meanwhile it also support [other RAID types](https://github.com/ankek/awesome-zf
 - [Nagios/Icinga plugin to monitor ZFS Pools](https://github.com/Napsty/check_zpools)
 - :skull: [Nagios plugin to check ZFS pool in the Linux environment](https://github.com/zlacelle/nagios_check_zfs_linux)
 - [collectd plugin for ZFS](https://github.com/strofimovsky/collectd-plugin-zfs)
-
+  
 ### ZFS Backup tools
 
 - [bzfs - Backup command line tool](https://github.com/whoschek/bzfs)
